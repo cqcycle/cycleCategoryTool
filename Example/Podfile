@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'cycleCategoryTool_Example' do
+  pod 'cycleCategoryTool', :path => '../'
+
+  target 'cycleCategoryTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
