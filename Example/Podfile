@@ -1,11 +1,7 @@
 use_frameworks!
+platform:ios,"8.0"
 
 target 'cycleCategoryTool_Example' do
   pod 'cycleCategoryTool', :path => '../'
 
-  target 'cycleCategoryTool_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

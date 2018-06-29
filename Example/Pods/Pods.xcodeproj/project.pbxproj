@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00070E47727DC06FFA221F77D6404A86 /* CycleCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4096F7B983C3E19C8B263AA6F28F5C2 /* CycleCustomLabel.m */; };
+		0205EA49EB61B7DFB1527DF5527F0C7E /* UIView+CycleSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD1380CD42D4C7A0801AA7C1C712D41 /* UIView+CycleSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0831DCC67F9EDD8D58369FCB4A79BF6D /* CycleCustomRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47015AA5BDD1829590CD22E8ED1B352E /* CycleCustomRefreshView.m */; };
+		08D342145BE87E78AF12DE52924B682C /* UIImageView+CycleUIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE24D0A1F6A5E0EED9AC914F7C76DA1 /* UIImageView+CycleUIImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B2015F969F36F1652C6F6460C2BF581 /* UIImageView+CycleUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377AE7F7B4545EFED704CE7D58199576 /* UIImageView+CycleUIImageView.m */; };
+		10C4A7B3EA00A7D6835307EB31954999 /* UIView+CycleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F4FF43F3B0B7E232BA9E38175E149B /* UIView+CycleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		161C8F1CB644E615A1493E59A07A5F64 /* UIView+CycleFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0C3B77B9A903D9A7978C9C432DD0AA /* UIView+CycleFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DF1EF23AF9194F3498A03672462C4D4 /* CyclePlaceHolderTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8278F29231997D562096C09C0794C8E1 /* CyclePlaceHolderTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21E3676A6D46DFE4953C360EB17ABB53 /* UIButton+Creat.h in Headers */ = {isa = PBXBuildFile; fileRef = A59E8F3AC26E0344E64862D561AF2950 /* UIButton+Creat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2209C4F01AEB4A41AE2B4B9A51A51340 /* NSString+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0564B62573C220C1D563779D9B54EB /* NSString+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2662838E607B06D986C84265B08E94DF /* UIButton+Creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C8CC5C671ADD74E8C53B510F6846E5 /* UIButton+Creat.m */; };
+		2F10D7DF6F8AC31EDB0B3378E56B3159 /* UIView+CycleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C66B3482E603720503BCDA201263745D /* UIView+CycleLayer.m */; };
+		313C6905A8464013DC05BF500F6E301D /* NSDate+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 89877A17DD551412570F40C001AE2111 /* NSDate+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3151E1C5D8B23AB6A09514C32AE7CEF7 /* CycleTopWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 54032B6E3F3D561143FF10DAA7A42593 /* CycleTopWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		341AC0345F26822470316E81F60AE4F0 /* NSString+CycleMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B62F27D54915ECD643A8AAB5D888D7F2 /* NSString+CycleMD5.m */; };
+		3FA0C868695D98EFB93182F90F652574 /* Pods-cycleCategoryTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D4A17015BB418619E1BA60B3C3BA29 /* Pods-cycleCategoryTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4117C8276507F863D1DB72F9829C5D9A /* NSDictionary+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AAC86B9D1380692584C86B056E18D6 /* NSDictionary+Cycle.m */; };
+		418E8F7F78F6280B4DE41C3731B5692A /* UITextField+CycleTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC1BAB0B63434936BBEE625CBAEF34 /* UITextField+CycleTextField.m */; };
+		45D9F1F09F4E2E2B0491B63870968D1C /* CyclePlaceHolderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE71363DDE8A03517822D7A25634344 /* CyclePlaceHolderTextField.m */; };
+		48C804E2057C715264DE64AD218FDD3A /* CycleDrawTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C419D61D2AF9EEF6F73CAAD8F1FB211 /* CycleDrawTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D4DBFA8537EC9DBFD932ABB339E19A2 /* UIBarButtonItem+CycleItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A6342E729E3626E45C59145BD85425 /* UIBarButtonItem+CycleItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53AB396D62F829D3A6F1C97A8DDA92F9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581FB65F1DD696E3A401E493A2593D /* ReplaceMe.m */; };
+		552C65BDBC373F760E165A9D460867B6 /* NSDictionary+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CD942F8675E46E34519AD828FA1BAD /* NSDictionary+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565578A2F46C8C6966E0C7019AD32BD2 /* NSCalendar+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1F08C91BB873B3172F8DD72A3D513A /* NSCalendar+Cycle.m */; };
+		5E83982B35A1FEB2804EC572589CD948 /* UITextField+CycleTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F9403BA25BC99BD5BEA5EFE51C443624 /* UITextField+CycleTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61CD959565050B6C294A047B5D9E3DA1 /* UIImage+CycleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C949D29F24632C24E55A5BA16DAC5A37 /* UIImage+CycleImage.m */; };
+		6217F052BF33865CD0063480E2529971 /* CycleTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D567DABF07E489CFF80980494E6744 /* CycleTopWindow.m */; };
+		642C9B07D898EA2E9124A6F20FE5AABA /* CycleSquareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5C44D84C16305F5447BDC0E18DF5A5 /* CycleSquareButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6542A39063B2074757FF24ADEA7A4E09 /* CycleTextViewHolderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFB627B6E4730C32F91339C700A1F2 /* CycleTextViewHolderLabel.m */; };
+		68D42EBCE3DF3810364DCEDCB7B81BB8 /* NSString+CyclefileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16815DD2C0F9352CA2C516C3203D /* NSString+CyclefileSize.m */; };
+		6F1CAA5B61757CBD5A796E91CF265EAB /* UIButton+Value.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21EDAD45EED530F78EC871BA969DAA /* UIButton+Value.m */; };
+		6F68AD1B232DE5179D5C9D660B7785A2 /* UIButton+Value.h in Headers */ = {isa = PBXBuildFile; fileRef = A01FEFD62ECE2D4BC3461FF1EA07C0C0 /* UIButton+Value.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E03244B2A2C38C8BE59C960B5DE3D2 /* UIColor+CycleHexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CD00F96860D57509228C320D5ED752A0 /* UIColor+CycleHexColors.m */; };
+		746F13B0A7E6DEA1EDB5E576D9675724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		79B3EE83F947BFD45A8BB6DD5050841F /* CycleDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA44BB3CE44F06A3AE6AA26BEEF19B1C /* CycleDrawTextView.m */; };
+		89574E554EA8125BD5DAE6C29F8862DF /* cycleCategoryTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB556B964CD2375D486F1441D3149AB5 /* cycleCategoryTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		896011C65C63002C114526F5CE62C8F6 /* cycleCategoryTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53446DA120F3E0A5E7048C9BEFD529AE /* cycleCategoryTool-dummy.m */; };
+		8D0EDB509F326B6D9B3A079A7AD461C2 /* UIScrollView+CycleRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F249A9660BD144EBF2BE63EF19DB /* UIScrollView+CycleRefresh.m */; };
+		90943803EC533A994C0E97E79536265D /* NSString+CyclefileSize.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEE6A3E94D2D82467E238F4491B1673 /* NSString+CyclefileSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		996A210D5118928CAE3F37C98C8188DA /* UIColor+CycleHexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E38636D20A7C0471282A496607B392F /* UIColor+CycleHexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A0A71B4F180F3E705943053E3F2746F /* UIWindow+CycleCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3022ADBE80F0E9AF32DE792B315BF6B9 /* UIWindow+CycleCurrentViewController.m */; };
+		9BA7ACDDDCE42576B9EEE495528950E9 /* CycleVerticalButton.h in Headers */ = {isa = PBXBuildFile; fileRef = BA10D57BDCA028907EDB83F903F133C9 /* CycleVerticalButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C2729564A1B694D489D3ADCA47B60F8 /* UIScrollView+CycleRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3BCE9BE7B4193BDF074A02DCFB6DE5 /* UIScrollView+CycleRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A55A464A4D8114D5E1B83194C6073C3E /* CycleDrawTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8462B1FE9457A0A4857AE13E6430AE60 /* CycleDrawTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAF58B159ABDC5FD71A21620B6CF0C7E /* NSCalendar+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAF5FC5691992601CAE3D1CC8B83C84 /* NSCalendar+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD1E774F6CBA03B03F853422308DBAD6 /* CycleVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F4DBAC1B64F4090290477028BC983C /* CycleVerticalButton.m */; };
+		BE39CBC304EBE803AA783EF01CCBFCF9 /* NSDate+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EB582B84986624F969A94C5048C109 /* NSDate+Cycle.m */; };
+		C0E8E7C79F48DCCDB0368D950BDCA6A3 /* NSString+CycleMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 2685A90C07B2ED2CC52726F5BC1ED3D1 /* NSString+CycleMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7C354327810736A3558AD3CF87A0535 /* UIView+CycleSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA63B4B344A169A9BB332F8ABE712D /* UIView+CycleSearchBar.m */; };
+		CB0D1D4F8E5D5B5CEB9550CE44BC7457 /* CycleCategoryHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = B75B408424B564B324B2B558AC678A56 /* CycleCategoryHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBA57F1313044C52B2CBEE32BF89E86C /* UIView+CycleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B31074221D649D4F570C01B0815284C /* UIView+CycleFrame.m */; };
+		CD6306B104E97FC18405B1B90F85D2CF /* CycleDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBDBF27E5B71FF49BAAF1D9FC573B87 /* CycleDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1C2416D104DB416464C1D37971CBC5C /* NSString+CycleGetDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 489BAD43BC5597A32D05D524AAF28B39 /* NSString+CycleGetDevice.m */; };
+		D2B4FF328E76572F2EB3889343F38216 /* CycleDrawTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E0E11AE3CE897FDF5E686DFAA7764D /* CycleDrawTextField.m */; };
+		D7847F2BA34B7373013B448C14D93A8E /* CycleNotificationTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B68ABDC5EB072C65520398B7D57382 /* CycleNotificationTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7F956D1CD7715CA48DC76C9D85078A7 /* NSString+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F6CC420135EABFEEC3CD4E5AF73AA3 /* NSString+Cycle.m */; };
+		D908F685DA58159B5F35CA1646D428D9 /* UIImage+CycleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFD67BB4176CD31F55F375CFE04848D /* UIImage+CycleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DECC1E4E2584F72588D43F2DFD72D3E9 /* UIBarButtonItem+CycleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA9D713E7609A8A05EF5794DD82C21 /* UIBarButtonItem+CycleItem.m */; };
+		E29A52F2AA5418694B849B870D364D72 /* CycleCustomRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1436B8B85B593E109F3EEB4D73C743C /* CycleCustomRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E42916CEB2E01003F98AB79EA77A8C0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E4EDF080BEFF59D48A17015947D64D79 /* Pods-cycleCategoryTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E562C23E7A6332BEA144941FB7754D6 /* Pods-cycleCategoryTool_Example-dummy.m */; };
+		E9E8B6FB74B64E2644020C3DA33F8785 /* UIWindow+CycleCurrentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BBC6B8767037FDEF6B27F82553DD8E /* UIWindow+CycleCurrentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEAE62C34D4E40565B5F4E17871F6041 /* CycleTextViewHolderLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1AC8626C42F0542AFFE2A6AB5BD217 /* CycleTextViewHolderLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1CED83CC2644CA9A0DA9172696CED7E /* CycleNotificationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C212D5C837B7647D85EC4DE3378E /* CycleNotificationTextField.m */; };
+		F230E5E5CA8B405481AE6C7196AD1361 /* CycleSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982A7816D2AB37360862F04374D185B /* CycleSquareButton.m */; };
+		F69FDAEE09B1187E29B81F3DC73354CE /* CycleCustomLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D78660E14475AA4870CC3D3EF635D1 /* CycleCustomLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA53969EBD866C2FB2F8EAC02F8DAAE4 /* NSString+CycleGetDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = E8089EAD876BC996EBAB04109176D4F1 /* NSString+CycleGetDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E03FB9AB2B6639928F6892295CCA0D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B8F215739E7EE12DEFAC13D0748C366;
+			remoteInfo = cycleCategoryTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044C9F8A018AE2FEE464FCB109D02A44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		04BC1BAB0B63434936BBEE625CBAEF34 /* UITextField+CycleTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CycleTextField.m"; sourceTree = "<group>"; };
+		05D4A17015BB418619E1BA60B3C3BA29 /* Pods-cycleCategoryTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cycleCategoryTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		060503B29CEF5F18E6E9855132413AA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0A0C3B77B9A903D9A7978C9C432DD0AA /* UIView+CycleFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CycleFrame.h"; sourceTree = "<group>"; };
+		0C1F08C91BB873B3172F8DD72A3D513A /* NSCalendar+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Cycle.m"; sourceTree = "<group>"; };
+		11581FB65F1DD696E3A401E493A2593D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = cycleCategoryTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		12E0E11AE3CE897FDF5E686DFAA7764D /* CycleDrawTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleDrawTextField.m; sourceTree = "<group>"; };
+		14D567DABF07E489CFF80980494E6744 /* CycleTopWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleTopWindow.m; sourceTree = "<group>"; };
+		1C419D61D2AF9EEF6F73CAAD8F1FB211 /* CycleDrawTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleDrawTextField.h; sourceTree = "<group>"; };
+		1DD37721A02986E6B5EC40568B217819 /* Pods-cycleCategoryTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cycleCategoryTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1EB6F249A9660BD144EBF2BE63EF19DB /* UIScrollView+CycleRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CycleRefresh.m"; sourceTree = "<group>"; };
+		1FAF5FC5691992601CAE3D1CC8B83C84 /* NSCalendar+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Cycle.h"; sourceTree = "<group>"; };
+		1FBA63B4B344A169A9BB332F8ABE712D /* UIView+CycleSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CycleSearchBar.m"; sourceTree = "<group>"; };
+		25C8CC5C671ADD74E8C53B510F6846E5 /* UIButton+Creat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Creat.m"; sourceTree = "<group>"; };
+		2685A90C07B2ED2CC52726F5BC1ED3D1 /* NSString+CycleMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CycleMD5.h"; sourceTree = "<group>"; };
+		26B3319F4A660E79019032273B5154C2 /* cycleCategoryTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = cycleCategoryTool.modulemap; sourceTree = "<group>"; };
+		2982A7816D2AB37360862F04374D185B /* CycleSquareButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleSquareButton.m; sourceTree = "<group>"; };
+		2E562C23E7A6332BEA144941FB7754D6 /* Pods-cycleCategoryTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cycleCategoryTool_Example-dummy.m"; sourceTree = "<group>"; };
+		3022ADBE80F0E9AF32DE792B315BF6B9 /* UIWindow+CycleCurrentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CycleCurrentViewController.m"; sourceTree = "<group>"; };
+		32FCAFFFB8727E93496E6C89A7A7B380 /* Pods-cycleCategoryTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cycleCategoryTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		377AE7F7B4545EFED704CE7D58199576 /* UIImageView+CycleUIImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CycleUIImageView.m"; sourceTree = "<group>"; };
+		38A6342E729E3626E45C59145BD85425 /* UIBarButtonItem+CycleItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CycleItem.h"; sourceTree = "<group>"; };
+		39BBC6B8767037FDEF6B27F82553DD8E /* UIWindow+CycleCurrentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CycleCurrentViewController.h"; sourceTree = "<group>"; };
+		3CA46EB3BFE6F346810A763D6895BA91 /* cycleCategoryTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cycleCategoryTool.xcconfig; sourceTree = "<group>"; };
+		47015AA5BDD1829590CD22E8ED1B352E /* CycleCustomRefreshView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleCustomRefreshView.m; sourceTree = "<group>"; };
+		47AAC86B9D1380692584C86B056E18D6 /* NSDictionary+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Cycle.m"; sourceTree = "<group>"; };
+		489BAD43BC5597A32D05D524AAF28B39 /* NSString+CycleGetDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CycleGetDevice.m"; sourceTree = "<group>"; };
+		48CD942F8675E46E34519AD828FA1BAD /* NSDictionary+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Cycle.h"; sourceTree = "<group>"; };
+		4A808D99B17257C9B6A1BB7F4883243C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBEEC76E4CE27F917D8734214A755F0 /* Pods_cycleCategoryTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cycleCategoryTool_Example.framework; path = "Pods-cycleCategoryTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EDB3BCABBF2F612A1FEFF0D5EE478BE /* Pods-cycleCategoryTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cycleCategoryTool_Example-resources.sh"; sourceTree = "<group>"; };
+		53446DA120F3E0A5E7048C9BEFD529AE /* cycleCategoryTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cycleCategoryTool-dummy.m"; sourceTree = "<group>"; };
+		54032B6E3F3D561143FF10DAA7A42593 /* CycleTopWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleTopWindow.h; sourceTree = "<group>"; };
+		561B0280E148906F37C7ADCCAE68F5B3 /* cycleCategoryTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cycleCategoryTool-prefix.pch"; sourceTree = "<group>"; };
+		5B31074221D649D4F570C01B0815284C /* UIView+CycleFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CycleFrame.m"; sourceTree = "<group>"; };
+		5C3BCE9BE7B4193BDF074A02DCFB6DE5 /* UIScrollView+CycleRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CycleRefresh.h"; sourceTree = "<group>"; };
+		5E38636D20A7C0471282A496607B392F /* UIColor+CycleHexColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CycleHexColors.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67178209EAF0BC09F5B11373E791C414 /* Pods-cycleCategoryTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cycleCategoryTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F0A30C00FB5A228F5EE1C9830BFDC4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BE24D0A1F6A5E0EED9AC914F7C76DA1 /* UIImageView+CycleUIImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CycleUIImageView.h"; sourceTree = "<group>"; };
+		8278F29231997D562096C09C0794C8E1 /* CyclePlaceHolderTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CyclePlaceHolderTextField.h; sourceTree = "<group>"; };
+		8462B1FE9457A0A4857AE13E6430AE60 /* CycleDrawTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleDrawTextView.h; sourceTree = "<group>"; };
+		89877A17DD551412570F40C001AE2111 /* NSDate+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+Cycle.h"; sourceTree = "<group>"; };
+		922578758968F5DC700CF648836DDB1D /* Pods-cycleCategoryTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cycleCategoryTool_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A1AC8626C42F0542AFFE2A6AB5BD217 /* CycleTextViewHolderLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleTextViewHolderLabel.h; sourceTree = "<group>"; };
+		A01FEFD62ECE2D4BC3461FF1EA07C0C0 /* UIButton+Value.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Value.h"; sourceTree = "<group>"; };
+		A4B68ABDC5EB072C65520398B7D57382 /* CycleNotificationTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleNotificationTextField.h; sourceTree = "<group>"; };
+		A59E8F3AC26E0344E64862D561AF2950 /* UIButton+Creat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Creat.h"; sourceTree = "<group>"; };
+		A9FA9D713E7609A8A05EF5794DD82C21 /* UIBarButtonItem+CycleItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CycleItem.m"; sourceTree = "<group>"; };
+		AA44BB3CE44F06A3AE6AA26BEEF19B1C /* CycleDrawTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleDrawTextView.m; sourceTree = "<group>"; };
+		AAEB94A27012244FD59A858D3A102D36 /* Pods-cycleCategoryTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cycleCategoryTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B0F6CC420135EABFEEC3CD4E5AF73AA3 /* NSString+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Cycle.m"; sourceTree = "<group>"; };
+		B62F27D54915ECD643A8AAB5D888D7F2 /* NSString+CycleMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CycleMD5.m"; sourceTree = "<group>"; };
+		B75B408424B564B324B2B558AC678A56 /* CycleCategoryHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleCategoryHelp.h; sourceTree = "<group>"; };
+		B8F4FF43F3B0B7E232BA9E38175E149B /* UIView+CycleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CycleLayer.h"; sourceTree = "<group>"; };
+		BA10D57BDCA028907EDB83F903F133C9 /* CycleVerticalButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleVerticalButton.h; sourceTree = "<group>"; };
+		BBBDBF27E5B71FF49BAAF1D9FC573B87 /* CycleDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleDefines.h; sourceTree = "<group>"; };
+		BC21EDAD45EED530F78EC871BA969DAA /* UIButton+Value.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Value.m"; sourceTree = "<group>"; };
+		BCAFB627B6E4730C32F91339C700A1F2 /* CycleTextViewHolderLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleTextViewHolderLabel.m; sourceTree = "<group>"; };
+		BFAD823DCCB575020384A56D79FB14BC /* cycleCategoryTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = cycleCategoryTool.framework; path = cycleCategoryTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD1380CD42D4C7A0801AA7C1C712D41 /* UIView+CycleSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CycleSearchBar.h"; sourceTree = "<group>"; };
+		C66B3482E603720503BCDA201263745D /* UIView+CycleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CycleLayer.m"; sourceTree = "<group>"; };
+		C949D29F24632C24E55A5BA16DAC5A37 /* UIImage+CycleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CycleImage.m"; sourceTree = "<group>"; };
+		CAEE6A3E94D2D82467E238F4491B1673 /* NSString+CyclefileSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CyclefileSize.h"; sourceTree = "<group>"; };
+		CD00F96860D57509228C320D5ED752A0 /* UIColor+CycleHexColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CycleHexColors.m"; sourceTree = "<group>"; };
+		CD5C44D84C16305F5447BDC0E18DF5A5 /* CycleSquareButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleSquareButton.h; sourceTree = "<group>"; };
+		CD688414B6A372FDD16A1FCC020CDC8D /* cycleCategoryTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = cycleCategoryTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CFFD67BB4176CD31F55F375CFE04848D /* UIImage+CycleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CycleImage.h"; sourceTree = "<group>"; };
+		D4096F7B983C3E19C8B263AA6F28F5C2 /* CycleCustomLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleCustomLabel.m; sourceTree = "<group>"; };
+		DB556B964CD2375D486F1441D3149AB5 /* cycleCategoryTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cycleCategoryTool-umbrella.h"; sourceTree = "<group>"; };
+		DBD9C9914E6CE7CAB7314A31E1E94F60 /* Pods-cycleCategoryTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cycleCategoryTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E8089EAD876BC996EBAB04109176D4F1 /* NSString+CycleGetDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CycleGetDevice.h"; sourceTree = "<group>"; };
+		E8EA16815DD2C0F9352CA2C516C3203D /* NSString+CyclefileSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CyclefileSize.m"; sourceTree = "<group>"; };
+		EB0564B62573C220C1D563779D9B54EB /* NSString+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Cycle.h"; sourceTree = "<group>"; };
+		EEE6C212D5C837B7647D85EC4DE3378E /* CycleNotificationTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleNotificationTextField.m; sourceTree = "<group>"; };
+		F0EB582B84986624F969A94C5048C109 /* NSDate+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Cycle.m"; sourceTree = "<group>"; };
+		F1436B8B85B593E109F3EEB4D73C743C /* CycleCustomRefreshView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleCustomRefreshView.h; sourceTree = "<group>"; };
+		F3D78660E14475AA4870CC3D3EF635D1 /* CycleCustomLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleCustomLabel.h; sourceTree = "<group>"; };
+		F5F4DBAC1B64F4090290477028BC983C /* CycleVerticalButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleVerticalButton.m; sourceTree = "<group>"; };
+		F9403BA25BC99BD5BEA5EFE51C443624 /* UITextField+CycleTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+CycleTextField.h"; sourceTree = "<group>"; };
+		FDE71363DDE8A03517822D7A25634344 /* CyclePlaceHolderTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CyclePlaceHolderTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8834595592186A563C77176B31F509FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746F13B0A7E6DEA1EDB5E576D9675724 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F0DB2285F061B23630A8A634D5E213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42916CEB2E01003F98AB79EA77A8C0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4C92AC43E22690633A54705EFA1CCA /* cycleCategoryTool */ = {
+			isa = PBXGroup;
+			children = (
+				B75B408424B564B324B2B558AC678A56 /* CycleCategoryHelp.h */,
+				F3D78660E14475AA4870CC3D3EF635D1 /* CycleCustomLabel.h */,
+				D4096F7B983C3E19C8B263AA6F28F5C2 /* CycleCustomLabel.m */,
+				F1436B8B85B593E109F3EEB4D73C743C /* CycleCustomRefreshView.h */,
+				47015AA5BDD1829590CD22E8ED1B352E /* CycleCustomRefreshView.m */,
+				BBBDBF27E5B71FF49BAAF1D9FC573B87 /* CycleDefines.h */,
+				1C419D61D2AF9EEF6F73CAAD8F1FB211 /* CycleDrawTextField.h */,
+				12E0E11AE3CE897FDF5E686DFAA7764D /* CycleDrawTextField.m */,
+				8462B1FE9457A0A4857AE13E6430AE60 /* CycleDrawTextView.h */,
+				AA44BB3CE44F06A3AE6AA26BEEF19B1C /* CycleDrawTextView.m */,
+				A4B68ABDC5EB072C65520398B7D57382 /* CycleNotificationTextField.h */,
+				EEE6C212D5C837B7647D85EC4DE3378E /* CycleNotificationTextField.m */,
+				8278F29231997D562096C09C0794C8E1 /* CyclePlaceHolderTextField.h */,
+				FDE71363DDE8A03517822D7A25634344 /* CyclePlaceHolderTextField.m */,
+				CD5C44D84C16305F5447BDC0E18DF5A5 /* CycleSquareButton.h */,
+				2982A7816D2AB37360862F04374D185B /* CycleSquareButton.m */,
+				9A1AC8626C42F0542AFFE2A6AB5BD217 /* CycleTextViewHolderLabel.h */,
+				BCAFB627B6E4730C32F91339C700A1F2 /* CycleTextViewHolderLabel.m */,
+				54032B6E3F3D561143FF10DAA7A42593 /* CycleTopWindow.h */,
+				14D567DABF07E489CFF80980494E6744 /* CycleTopWindow.m */,
+				BA10D57BDCA028907EDB83F903F133C9 /* CycleVerticalButton.h */,
+				F5F4DBAC1B64F4090290477028BC983C /* CycleVerticalButton.m */,
+				1FAF5FC5691992601CAE3D1CC8B83C84 /* NSCalendar+Cycle.h */,
+				0C1F08C91BB873B3172F8DD72A3D513A /* NSCalendar+Cycle.m */,
+				89877A17DD551412570F40C001AE2111 /* NSDate+Cycle.h */,
+				F0EB582B84986624F969A94C5048C109 /* NSDate+Cycle.m */,
+				48CD942F8675E46E34519AD828FA1BAD /* NSDictionary+Cycle.h */,
+				47AAC86B9D1380692584C86B056E18D6 /* NSDictionary+Cycle.m */,
+				EB0564B62573C220C1D563779D9B54EB /* NSString+Cycle.h */,
+				B0F6CC420135EABFEEC3CD4E5AF73AA3 /* NSString+Cycle.m */,
+				CAEE6A3E94D2D82467E238F4491B1673 /* NSString+CyclefileSize.h */,
+				E8EA16815DD2C0F9352CA2C516C3203D /* NSString+CyclefileSize.m */,
+				E8089EAD876BC996EBAB04109176D4F1 /* NSString+CycleGetDevice.h */,
+				489BAD43BC5597A32D05D524AAF28B39 /* NSString+CycleGetDevice.m */,
+				2685A90C07B2ED2CC52726F5BC1ED3D1 /* NSString+CycleMD5.h */,
+				B62F27D54915ECD643A8AAB5D888D7F2 /* NSString+CycleMD5.m */,
+				38A6342E729E3626E45C59145BD85425 /* UIBarButtonItem+CycleItem.h */,
+				A9FA9D713E7609A8A05EF5794DD82C21 /* UIBarButtonItem+CycleItem.m */,
+				A59E8F3AC26E0344E64862D561AF2950 /* UIButton+Creat.h */,
+				25C8CC5C671ADD74E8C53B510F6846E5 /* UIButton+Creat.m */,
+				A01FEFD62ECE2D4BC3461FF1EA07C0C0 /* UIButton+Value.h */,
+				BC21EDAD45EED530F78EC871BA969DAA /* UIButton+Value.m */,
+				5E38636D20A7C0471282A496607B392F /* UIColor+CycleHexColors.h */,
+				CD00F96860D57509228C320D5ED752A0 /* UIColor+CycleHexColors.m */,
+				CFFD67BB4176CD31F55F375CFE04848D /* UIImage+CycleImage.h */,
+				C949D29F24632C24E55A5BA16DAC5A37 /* UIImage+CycleImage.m */,
+				7BE24D0A1F6A5E0EED9AC914F7C76DA1 /* UIImageView+CycleUIImageView.h */,
+				377AE7F7B4545EFED704CE7D58199576 /* UIImageView+CycleUIImageView.m */,
+				5C3BCE9BE7B4193BDF074A02DCFB6DE5 /* UIScrollView+CycleRefresh.h */,
+				1EB6F249A9660BD144EBF2BE63EF19DB /* UIScrollView+CycleRefresh.m */,
+				F9403BA25BC99BD5BEA5EFE51C443624 /* UITextField+CycleTextField.h */,
+				04BC1BAB0B63434936BBEE625CBAEF34 /* UITextField+CycleTextField.m */,
+				0A0C3B77B9A903D9A7978C9C432DD0AA /* UIView+CycleFrame.h */,
+				5B31074221D649D4F570C01B0815284C /* UIView+CycleFrame.m */,
+				B8F4FF43F3B0B7E232BA9E38175E149B /* UIView+CycleLayer.h */,
+				C66B3482E603720503BCDA201263745D /* UIView+CycleLayer.m */,
+				BFD1380CD42D4C7A0801AA7C1C712D41 /* UIView+CycleSearchBar.h */,
+				1FBA63B4B344A169A9BB332F8ABE712D /* UIView+CycleSearchBar.m */,
+				39BBC6B8767037FDEF6B27F82553DD8E /* UIWindow+CycleCurrentViewController.h */,
+				3022ADBE80F0E9AF32DE792B315BF6B9 /* UIWindow+CycleCurrentViewController.m */,
+			);
+			name = cycleCategoryTool;
+			path = cycleCategoryTool/Classes/cycleCategoryTool;
+			sourceTree = "<group>";
+		};
+		3D531DD4C122EA1F951040B819F7CFE9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45CFB00F541FD381F3E4A30BC9553589 /* cycleCategoryTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		45CFB00F541FD381F3E4A30BC9553589 /* cycleCategoryTool */ = {
+			isa = PBXGroup;
+			children = (
+				11581FB65F1DD696E3A401E493A2593D /* ReplaceMe.m */,
+				0B4C92AC43E22690633A54705EFA1CCA /* cycleCategoryTool */,
+				CCC3A42CDBF3AE9AAF27B057C8DFFFD6 /* Pod */,
+				91E5B41C3A35744F882389B347794573 /* Support Files */,
+			);
+			name = cycleCategoryTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3D531DD4C122EA1F951040B819F7CFE9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				990D66F62653F1DAF84103ED690EA0BA /* Products */,
+				F099D988ADFB67075FE7D489D1571600 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91E5B41C3A35744F882389B347794573 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26B3319F4A660E79019032273B5154C2 /* cycleCategoryTool.modulemap */,
+				3CA46EB3BFE6F346810A763D6895BA91 /* cycleCategoryTool.xcconfig */,
+				53446DA120F3E0A5E7048C9BEFD529AE /* cycleCategoryTool-dummy.m */,
+				561B0280E148906F37C7ADCCAE68F5B3 /* cycleCategoryTool-prefix.pch */,
+				DB556B964CD2375D486F1441D3149AB5 /* cycleCategoryTool-umbrella.h */,
+				6F0A30C00FB5A228F5EE1C9830BFDC4D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/cycleCategoryTool";
+			sourceTree = "<group>";
+		};
+		990D66F62653F1DAF84103ED690EA0BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFAD823DCCB575020384A56D79FB14BC /* cycleCategoryTool.framework */,
+				4CBEEC76E4CE27F917D8734214A755F0 /* Pods_cycleCategoryTool_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCC3A42CDBF3AE9AAF27B057C8DFFFD6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CD688414B6A372FDD16A1FCC020CDC8D /* cycleCategoryTool.podspec */,
+				044C9F8A018AE2FEE464FCB109D02A44 /* LICENSE */,
+				060503B29CEF5F18E6E9855132413AA6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F099D988ADFB67075FE7D489D1571600 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F933FA5F47281E543BFBA8C6AA337AD6 /* Pods-cycleCategoryTool_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F933FA5F47281E543BFBA8C6AA337AD6 /* Pods-cycleCategoryTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4A808D99B17257C9B6A1BB7F4883243C /* Info.plist */,
+				922578758968F5DC700CF648836DDB1D /* Pods-cycleCategoryTool_Example.modulemap */,
+				32FCAFFFB8727E93496E6C89A7A7B380 /* Pods-cycleCategoryTool_Example-acknowledgements.markdown */,
+				67178209EAF0BC09F5B11373E791C414 /* Pods-cycleCategoryTool_Example-acknowledgements.plist */,
+				2E562C23E7A6332BEA144941FB7754D6 /* Pods-cycleCategoryTool_Example-dummy.m */,
+				DBD9C9914E6CE7CAB7314A31E1E94F60 /* Pods-cycleCategoryTool_Example-frameworks.sh */,
+				4EDB3BCABBF2F612A1FEFF0D5EE478BE /* Pods-cycleCategoryTool_Example-resources.sh */,
+				05D4A17015BB418619E1BA60B3C3BA29 /* Pods-cycleCategoryTool_Example-umbrella.h */,
+				1DD37721A02986E6B5EC40568B217819 /* Pods-cycleCategoryTool_Example.debug.xcconfig */,
+				AAEB94A27012244FD59A858D3A102D36 /* Pods-cycleCategoryTool_Example.release.xcconfig */,
+			);
+			name = "Pods-cycleCategoryTool_Example";
+			path = "Target Support Files/Pods-cycleCategoryTool_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		823192124B5DB638F2EA5670985AB4C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA0C868695D98EFB93182F90F652574 /* Pods-cycleCategoryTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CD208ADFFBB3CDFC96277DD0FEE429 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0D1D4F8E5D5B5CEB9550CE44BC7457 /* CycleCategoryHelp.h in Headers */,
+				89574E554EA8125BD5DAE6C29F8862DF /* cycleCategoryTool-umbrella.h in Headers */,
+				F69FDAEE09B1187E29B81F3DC73354CE /* CycleCustomLabel.h in Headers */,
+				E29A52F2AA5418694B849B870D364D72 /* CycleCustomRefreshView.h in Headers */,
+				CD6306B104E97FC18405B1B90F85D2CF /* CycleDefines.h in Headers */,
+				48C804E2057C715264DE64AD218FDD3A /* CycleDrawTextField.h in Headers */,
+				A55A464A4D8114D5E1B83194C6073C3E /* CycleDrawTextView.h in Headers */,
+				D7847F2BA34B7373013B448C14D93A8E /* CycleNotificationTextField.h in Headers */,
+				1DF1EF23AF9194F3498A03672462C4D4 /* CyclePlaceHolderTextField.h in Headers */,
+				642C9B07D898EA2E9124A6F20FE5AABA /* CycleSquareButton.h in Headers */,
+				EEAE62C34D4E40565B5F4E17871F6041 /* CycleTextViewHolderLabel.h in Headers */,
+				3151E1C5D8B23AB6A09514C32AE7CEF7 /* CycleTopWindow.h in Headers */,
+				9BA7ACDDDCE42576B9EEE495528950E9 /* CycleVerticalButton.h in Headers */,
+				AAF58B159ABDC5FD71A21620B6CF0C7E /* NSCalendar+Cycle.h in Headers */,
+				313C6905A8464013DC05BF500F6E301D /* NSDate+Cycle.h in Headers */,
+				552C65BDBC373F760E165A9D460867B6 /* NSDictionary+Cycle.h in Headers */,
+				2209C4F01AEB4A41AE2B4B9A51A51340 /* NSString+Cycle.h in Headers */,
+				90943803EC533A994C0E97E79536265D /* NSString+CyclefileSize.h in Headers */,
+				FA53969EBD866C2FB2F8EAC02F8DAAE4 /* NSString+CycleGetDevice.h in Headers */,
+				C0E8E7C79F48DCCDB0368D950BDCA6A3 /* NSString+CycleMD5.h in Headers */,
+				4D4DBFA8537EC9DBFD932ABB339E19A2 /* UIBarButtonItem+CycleItem.h in Headers */,
+				21E3676A6D46DFE4953C360EB17ABB53 /* UIButton+Creat.h in Headers */,
+				6F68AD1B232DE5179D5C9D660B7785A2 /* UIButton+Value.h in Headers */,
+				996A210D5118928CAE3F37C98C8188DA /* UIColor+CycleHexColors.h in Headers */,
+				D908F685DA58159B5F35CA1646D428D9 /* UIImage+CycleImage.h in Headers */,
+				08D342145BE87E78AF12DE52924B682C /* UIImageView+CycleUIImageView.h in Headers */,
+				9C2729564A1B694D489D3ADCA47B60F8 /* UIScrollView+CycleRefresh.h in Headers */,
+				5E83982B35A1FEB2804EC572589CD948 /* UITextField+CycleTextField.h in Headers */,
+				161C8F1CB644E615A1493E59A07A5F64 /* UIView+CycleFrame.h in Headers */,
+				10C4A7B3EA00A7D6835307EB31954999 /* UIView+CycleLayer.h in Headers */,
+				0205EA49EB61B7DFB1527DF5527F0C7E /* UIView+CycleSearchBar.h in Headers */,
+				E9E8B6FB74B64E2644020C3DA33F8785 /* UIWindow+CycleCurrentViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B8F215739E7EE12DEFAC13D0748C366 /* cycleCategoryTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB3EDC7516C85C19651D3D68063D944 /* Build configuration list for PBXNativeTarget "cycleCategoryTool" */;
+			buildPhases = (
+				DD40834A36795F63F4CF42AEC5A571F3 /* Sources */,
+				88F0DB2285F061B23630A8A634D5E213 /* Frameworks */,
+				99CD208ADFFBB3CDFC96277DD0FEE429 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cycleCategoryTool;
+			productName = cycleCategoryTool;
+			productReference = BFAD823DCCB575020384A56D79FB14BC /* cycleCategoryTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC127B9500912B073D71DCB7899FB70A /* Pods-cycleCategoryTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 857181675D57160B24EE1568A3D84BB9 /* Build configuration list for PBXNativeTarget "Pods-cycleCategoryTool_Example" */;
+			buildPhases = (
+				CC3BA272D7A4E67C0CDB43C92838052D /* Sources */,
+				8834595592186A563C77176B31F509FB /* Frameworks */,
+				823192124B5DB638F2EA5670985AB4C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47644E6C4CC153C3166E1A252F27F84E /* PBXTargetDependency */,
+			);
+			name = "Pods-cycleCategoryTool_Example";
+			productName = "Pods-cycleCategoryTool_Example";
+			productReference = 4CBEEC76E4CE27F917D8734214A755F0 /* Pods_cycleCategoryTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 990D66F62653F1DAF84103ED690EA0BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B8F215739E7EE12DEFAC13D0748C366 /* cycleCategoryTool */,
+				CC127B9500912B073D71DCB7899FB70A /* Pods-cycleCategoryTool_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3BA272D7A4E67C0CDB43C92838052D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4EDF080BEFF59D48A17015947D64D79 /* Pods-cycleCategoryTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD40834A36795F63F4CF42AEC5A571F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896011C65C63002C114526F5CE62C8F6 /* cycleCategoryTool-dummy.m in Sources */,
+				00070E47727DC06FFA221F77D6404A86 /* CycleCustomLabel.m in Sources */,
+				0831DCC67F9EDD8D58369FCB4A79BF6D /* CycleCustomRefreshView.m in Sources */,
+				D2B4FF328E76572F2EB3889343F38216 /* CycleDrawTextField.m in Sources */,
+				79B3EE83F947BFD45A8BB6DD5050841F /* CycleDrawTextView.m in Sources */,
+				F1CED83CC2644CA9A0DA9172696CED7E /* CycleNotificationTextField.m in Sources */,
+				45D9F1F09F4E2E2B0491B63870968D1C /* CyclePlaceHolderTextField.m in Sources */,
+				F230E5E5CA8B405481AE6C7196AD1361 /* CycleSquareButton.m in Sources */,
+				6542A39063B2074757FF24ADEA7A4E09 /* CycleTextViewHolderLabel.m in Sources */,
+				6217F052BF33865CD0063480E2529971 /* CycleTopWindow.m in Sources */,
+				AD1E774F6CBA03B03F853422308DBAD6 /* CycleVerticalButton.m in Sources */,
+				565578A2F46C8C6966E0C7019AD32BD2 /* NSCalendar+Cycle.m in Sources */,
+				BE39CBC304EBE803AA783EF01CCBFCF9 /* NSDate+Cycle.m in Sources */,
+				4117C8276507F863D1DB72F9829C5D9A /* NSDictionary+Cycle.m in Sources */,
+				D7F956D1CD7715CA48DC76C9D85078A7 /* NSString+Cycle.m in Sources */,
+				68D42EBCE3DF3810364DCEDCB7B81BB8 /* NSString+CyclefileSize.m in Sources */,
+				D1C2416D104DB416464C1D37971CBC5C /* NSString+CycleGetDevice.m in Sources */,
+				341AC0345F26822470316E81F60AE4F0 /* NSString+CycleMD5.m in Sources */,
+				53AB396D62F829D3A6F1C97A8DDA92F9 /* ReplaceMe.m in Sources */,
+				DECC1E4E2584F72588D43F2DFD72D3E9 /* UIBarButtonItem+CycleItem.m in Sources */,
+				2662838E607B06D986C84265B08E94DF /* UIButton+Creat.m in Sources */,
+				6F1CAA5B61757CBD5A796E91CF265EAB /* UIButton+Value.m in Sources */,
+				72E03244B2A2C38C8BE59C960B5DE3D2 /* UIColor+CycleHexColors.m in Sources */,
+				61CD959565050B6C294A047B5D9E3DA1 /* UIImage+CycleImage.m in Sources */,
+				0B2015F969F36F1652C6F6460C2BF581 /* UIImageView+CycleUIImageView.m in Sources */,
+				8D0EDB509F326B6D9B3A079A7AD461C2 /* UIScrollView+CycleRefresh.m in Sources */,
+				418E8F7F78F6280B4DE41C3731B5692A /* UITextField+CycleTextField.m in Sources */,
+				CBA57F1313044C52B2CBEE32BF89E86C /* UIView+CycleFrame.m in Sources */,
+				2F10D7DF6F8AC31EDB0B3378E56B3159 /* UIView+CycleLayer.m in Sources */,
+				C7C354327810736A3558AD3CF87A0535 /* UIView+CycleSearchBar.m in Sources */,
+				9A0A71B4F180F3E705943053E3F2746F /* UIWindow+CycleCurrentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47644E6C4CC153C3166E1A252F27F84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = cycleCategoryTool;
+			target = 3B8F215739E7EE12DEFAC13D0748C366 /* cycleCategoryTool */;
+			targetProxy = 8E03FB9AB2B6639928F6892295CCA0D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1914C03B0D3129624C34E17C0AFA2312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD37721A02986E6B5EC40568B217819 /* Pods-cycleCategoryTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cycleCategoryTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cycleCategoryTool_Example/Pods-cycleCategoryTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7F59828414E02CDEFA9DF8EFB828CCAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAEB94A27012244FD59A858D3A102D36 /* Pods-cycleCategoryTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cycleCategoryTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cycleCategoryTool_Example/Pods-cycleCategoryTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A96980F19D9C324F11A28907143D70EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA46EB3BFE6F346810A763D6895BA91 /* cycleCategoryTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/cycleCategoryTool/cycleCategoryTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cycleCategoryTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/cycleCategoryTool/cycleCategoryTool.modulemap";
+				PRODUCT_MODULE_NAME = cycleCategoryTool;
+				PRODUCT_NAME = cycleCategoryTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2FF6E4506534E4FDF35A68280867DFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA46EB3BFE6F346810A763D6895BA91 /* cycleCategoryTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/cycleCategoryTool/cycleCategoryTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cycleCategoryTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/cycleCategoryTool/cycleCategoryTool.modulemap";
+				PRODUCT_MODULE_NAME = cycleCategoryTool;
+				PRODUCT_NAME = cycleCategoryTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB3EDC7516C85C19651D3D68063D944 /* Build configuration list for PBXNativeTarget "cycleCategoryTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96980F19D9C324F11A28907143D70EB /* Debug */,
+				E2FF6E4506534E4FDF35A68280867DFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		857181675D57160B24EE1568A3D84BB9 /* Build configuration list for PBXNativeTarget "Pods-cycleCategoryTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1914C03B0D3129624C34E17C0AFA2312 /* Debug */,
+				7F59828414E02CDEFA9DF8EFB828CCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
