@@ -21,9 +21,6 @@
 #import "CyclePlaceHolderTextField.h"
 /// 通过textfield的“通知 notification ”来控制当聚焦或者失去焦点，占位文字颜色
 #import "CycleNotificationTextField.h"
-/// 分类，设置占位文字颜色
-#import "UITextField+CycleTextField.h"
-
 /// 2.圆形按钮
 #import "CycleSquareButton.h"
 /// 3.垂直方向的按钮
@@ -43,7 +40,7 @@
 
 /// 9.通过按钮的分类  设置对应按钮的属性值
 #import "UIButton+Value.h"
-#import "UIButton+Creat.h"
+
 /// 10.图片
 #import "UIImage+CycleImage.h"
 
@@ -76,6 +73,21 @@
 
 ///中文，随机数，处理“*”手机号，去空格，取时间字符串，时间转换，富文本
 #import "NSString+Cycle.h"
+
+
+
+///创建按钮
+#import "UIButton+CycleCreat.h"
+///创建label
+#import "UILabel+CycleCreat.h"
+///创建tableView
+#import "UITableView+CycleCreat.h"
+///创建Textfield
+#import "UITextField+CycleCreat.h"
+///创建UITextView
+#import "UITextView+CycleCreat.h"
+///创建UICollectionView
+#import "UICollectionView+CycleCreat.h"
 
 #endif
 

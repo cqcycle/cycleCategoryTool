@@ -7,73 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00070E47727DC06FFA221F77D6404A86 /* CycleCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4096F7B983C3E19C8B263AA6F28F5C2 /* CycleCustomLabel.m */; };
-		0205EA49EB61B7DFB1527DF5527F0C7E /* UIView+CycleSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD1380CD42D4C7A0801AA7C1C712D41 /* UIView+CycleSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0831DCC67F9EDD8D58369FCB4A79BF6D /* CycleCustomRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47015AA5BDD1829590CD22E8ED1B352E /* CycleCustomRefreshView.m */; };
-		08D342145BE87E78AF12DE52924B682C /* UIImageView+CycleUIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE24D0A1F6A5E0EED9AC914F7C76DA1 /* UIImageView+CycleUIImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B2015F969F36F1652C6F6460C2BF581 /* UIImageView+CycleUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377AE7F7B4545EFED704CE7D58199576 /* UIImageView+CycleUIImageView.m */; };
-		10C4A7B3EA00A7D6835307EB31954999 /* UIView+CycleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B8F4FF43F3B0B7E232BA9E38175E149B /* UIView+CycleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		161C8F1CB644E615A1493E59A07A5F64 /* UIView+CycleFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0C3B77B9A903D9A7978C9C432DD0AA /* UIView+CycleFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DF1EF23AF9194F3498A03672462C4D4 /* CyclePlaceHolderTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 8278F29231997D562096C09C0794C8E1 /* CyclePlaceHolderTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21E3676A6D46DFE4953C360EB17ABB53 /* UIButton+Creat.h in Headers */ = {isa = PBXBuildFile; fileRef = A59E8F3AC26E0344E64862D561AF2950 /* UIButton+Creat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2209C4F01AEB4A41AE2B4B9A51A51340 /* NSString+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0564B62573C220C1D563779D9B54EB /* NSString+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2662838E607B06D986C84265B08E94DF /* UIButton+Creat.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C8CC5C671ADD74E8C53B510F6846E5 /* UIButton+Creat.m */; };
-		2F10D7DF6F8AC31EDB0B3378E56B3159 /* UIView+CycleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C66B3482E603720503BCDA201263745D /* UIView+CycleLayer.m */; };
-		313C6905A8464013DC05BF500F6E301D /* NSDate+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 89877A17DD551412570F40C001AE2111 /* NSDate+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3151E1C5D8B23AB6A09514C32AE7CEF7 /* CycleTopWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 54032B6E3F3D561143FF10DAA7A42593 /* CycleTopWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		341AC0345F26822470316E81F60AE4F0 /* NSString+CycleMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B62F27D54915ECD643A8AAB5D888D7F2 /* NSString+CycleMD5.m */; };
+		04F2977E6404EC52BF85BFEE81FB5610 /* CycleDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 62DE981BB9031E833C2AD6F01D192B9B /* CycleDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06FCB4ED698EB79DD36E615ABFA16E03 /* UIButton+CycleCreat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD889FF19802EA2B1C60B9DF4440D18 /* UIButton+CycleCreat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F6FA6AAF4060C663AC1DECEA20CAC9 /* NSString+CyclefileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 329B1147978C4E62FC2645D8F177AA7E /* NSString+CyclefileSize.m */; };
+		0AB6CD5E9367C552A25BC47BC5BD942E /* UIColor+CycleHexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C67A32A22A23862C6783F5868F54488 /* UIColor+CycleHexColors.m */; };
+		14E6822D3935A447768E5B39124167E3 /* UIImage+CycleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D95C92134ADCEE47EDDBF46508E2552 /* UIImage+CycleImage.m */; };
+		1567DFEF7179F9C7EEB3F929D427E059 /* CycleTopWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B678C7DE4E005B51A00D1782A735A42 /* CycleTopWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187B01EE6D00CCB12D1767CBAF0C7825 /* UIButton+Value.m in Sources */ = {isa = PBXBuildFile; fileRef = B989816A541439676A2C882044E41F44 /* UIButton+Value.m */; };
+		1A8126F05CFC1B3AC1D82EAA664ECC40 /* UIWindow+CycleCurrentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B610C1EA209C97628981D84D7470B3F4 /* UIWindow+CycleCurrentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DE9292256ACDA291DB117A5922DE137 /* UILabel+CycleCreat.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E713D006B1F39293B651F48F8B28CD0 /* UILabel+CycleCreat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2767904EDC189407F5CE89DB4C80A3B1 /* CycleVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2DAD816B4FD49D0B917D3B3D59398A /* CycleVerticalButton.m */; };
+		31B9949CA0AAFBE2863C177AF03EBB8F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBB25B23574207EDB5C1C493BA7673A /* ReplaceMe.m */; };
+		330790E9CEBD822E3CBB727E176AE3C3 /* CycleDrawTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = D096A0984A0E0886F26DD67D10F0D9A8 /* CycleDrawTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		359154E99A732573225CF80DCC3CB75E /* UIButton+CycleCreat.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F1119F304F695A8AC88026CB997751 /* UIButton+CycleCreat.m */; };
+		3617E204430CA765D086CC288ACB908A /* cycleCategoryTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD5F572435EB347EBD4F4CB5B042C0 /* cycleCategoryTool-dummy.m */; };
+		3A2F81933EAD1B82EBF54831028DFE8E /* NSString+CycleGetDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = CBCA432FA19DE39AC38FD13F85625E24 /* NSString+CycleGetDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F25D1C5A024164ACD49CE43CC05839D /* NSString+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = B3EB77DDFC53DFF381357FA643D805C1 /* NSString+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FA0C868695D98EFB93182F90F652574 /* Pods-cycleCategoryTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D4A17015BB418619E1BA60B3C3BA29 /* Pods-cycleCategoryTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4117C8276507F863D1DB72F9829C5D9A /* NSDictionary+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 47AAC86B9D1380692584C86B056E18D6 /* NSDictionary+Cycle.m */; };
-		418E8F7F78F6280B4DE41C3731B5692A /* UITextField+CycleTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC1BAB0B63434936BBEE625CBAEF34 /* UITextField+CycleTextField.m */; };
-		45D9F1F09F4E2E2B0491B63870968D1C /* CyclePlaceHolderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE71363DDE8A03517822D7A25634344 /* CyclePlaceHolderTextField.m */; };
-		48C804E2057C715264DE64AD218FDD3A /* CycleDrawTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C419D61D2AF9EEF6F73CAAD8F1FB211 /* CycleDrawTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D4DBFA8537EC9DBFD932ABB339E19A2 /* UIBarButtonItem+CycleItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 38A6342E729E3626E45C59145BD85425 /* UIBarButtonItem+CycleItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53AB396D62F829D3A6F1C97A8DDA92F9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 11581FB65F1DD696E3A401E493A2593D /* ReplaceMe.m */; };
-		552C65BDBC373F760E165A9D460867B6 /* NSDictionary+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CD942F8675E46E34519AD828FA1BAD /* NSDictionary+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		565578A2F46C8C6966E0C7019AD32BD2 /* NSCalendar+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1F08C91BB873B3172F8DD72A3D513A /* NSCalendar+Cycle.m */; };
-		5E83982B35A1FEB2804EC572589CD948 /* UITextField+CycleTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F9403BA25BC99BD5BEA5EFE51C443624 /* UITextField+CycleTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61CD959565050B6C294A047B5D9E3DA1 /* UIImage+CycleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C949D29F24632C24E55A5BA16DAC5A37 /* UIImage+CycleImage.m */; };
-		6217F052BF33865CD0063480E2529971 /* CycleTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D567DABF07E489CFF80980494E6744 /* CycleTopWindow.m */; };
-		642C9B07D898EA2E9124A6F20FE5AABA /* CycleSquareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5C44D84C16305F5447BDC0E18DF5A5 /* CycleSquareButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6542A39063B2074757FF24ADEA7A4E09 /* CycleTextViewHolderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAFB627B6E4730C32F91339C700A1F2 /* CycleTextViewHolderLabel.m */; };
-		68D42EBCE3DF3810364DCEDCB7B81BB8 /* NSString+CyclefileSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EA16815DD2C0F9352CA2C516C3203D /* NSString+CyclefileSize.m */; };
-		6F1CAA5B61757CBD5A796E91CF265EAB /* UIButton+Value.m in Sources */ = {isa = PBXBuildFile; fileRef = BC21EDAD45EED530F78EC871BA969DAA /* UIButton+Value.m */; };
-		6F68AD1B232DE5179D5C9D660B7785A2 /* UIButton+Value.h in Headers */ = {isa = PBXBuildFile; fileRef = A01FEFD62ECE2D4BC3461FF1EA07C0C0 /* UIButton+Value.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72E03244B2A2C38C8BE59C960B5DE3D2 /* UIColor+CycleHexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = CD00F96860D57509228C320D5ED752A0 /* UIColor+CycleHexColors.m */; };
+		4744E034BA7651A81805A0CE20B9D7E4 /* NSCalendar+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 70578BD0A130C3E55885E3B23508DDE9 /* NSCalendar+Cycle.m */; };
+		47C0D5A8EE76BD24E7FE9178507C25DD /* NSDate+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD1C401B441441026ED66C8CD55B7C6 /* NSDate+Cycle.m */; };
+		4DF1FD2E758EFD079BFA2FD30BC8B578 /* NSString+CycleMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = F999393B46AA08D6A0BF422DFB435A10 /* NSString+CycleMD5.m */; };
+		515EAEC26CA4FF0385D125750407A971 /* UICollectionView+CycleCreat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B427C685B2696EBBA21773538264DF8 /* UICollectionView+CycleCreat.m */; };
+		55F92C41220ADD6921EB6D1F815B9628 /* UITextField+CycleCreat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C868708070CC7A389E9693DF55A7AFD /* UITextField+CycleCreat.m */; };
+		58C1AF8DEB55C0F88ABBE6166199D010 /* UIImage+CycleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = F91A558382BDD1FB93979972CD696B77 /* UIImage+CycleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC73B4D4C890A090C2372529CB970E0 /* CycleDrawTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEB3AD537C2AABAB91DECEC739D1278 /* CycleDrawTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		635B54413B2D3A482A92AC7EFB269B17 /* UIWindow+CycleCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE07E4B0B45F80DEEC391D440B5A75B5 /* UIWindow+CycleCurrentViewController.m */; };
+		66115F655047E558D13DA4FB65D00CBD /* UIBarButtonItem+CycleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 16721657E25D4A2B155A1CEAFFBF7FCC /* UIBarButtonItem+CycleItem.m */; };
+		6A2199D4C5578A14B6DCA43F0528B9CA /* CycleVerticalButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A005D2EB9F4DA22BC2EC5C5A6B2D627 /* CycleVerticalButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F92F25683BC53178D6D00777F1E9F10 /* CycleCustomLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC0F41841DEC1C6A4906293D99C0E66 /* CycleCustomLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73E34D370A66ACF9C3B9BDE2EAA66D38 /* UIView+CycleSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B0E96AFECD631EE4E61E7622238CED /* UIView+CycleSearchBar.m */; };
 		746F13B0A7E6DEA1EDB5E576D9675724 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		79B3EE83F947BFD45A8BB6DD5050841F /* CycleDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA44BB3CE44F06A3AE6AA26BEEF19B1C /* CycleDrawTextView.m */; };
-		89574E554EA8125BD5DAE6C29F8862DF /* cycleCategoryTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB556B964CD2375D486F1441D3149AB5 /* cycleCategoryTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		896011C65C63002C114526F5CE62C8F6 /* cycleCategoryTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53446DA120F3E0A5E7048C9BEFD529AE /* cycleCategoryTool-dummy.m */; };
-		8D0EDB509F326B6D9B3A079A7AD461C2 /* UIScrollView+CycleRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB6F249A9660BD144EBF2BE63EF19DB /* UIScrollView+CycleRefresh.m */; };
-		90943803EC533A994C0E97E79536265D /* NSString+CyclefileSize.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEE6A3E94D2D82467E238F4491B1673 /* NSString+CyclefileSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		996A210D5118928CAE3F37C98C8188DA /* UIColor+CycleHexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E38636D20A7C0471282A496607B392F /* UIColor+CycleHexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A0A71B4F180F3E705943053E3F2746F /* UIWindow+CycleCurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3022ADBE80F0E9AF32DE792B315BF6B9 /* UIWindow+CycleCurrentViewController.m */; };
-		9BA7ACDDDCE42576B9EEE495528950E9 /* CycleVerticalButton.h in Headers */ = {isa = PBXBuildFile; fileRef = BA10D57BDCA028907EDB83F903F133C9 /* CycleVerticalButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C2729564A1B694D489D3ADCA47B60F8 /* UIScrollView+CycleRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C3BCE9BE7B4193BDF074A02DCFB6DE5 /* UIScrollView+CycleRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A55A464A4D8114D5E1B83194C6073C3E /* CycleDrawTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8462B1FE9457A0A4857AE13E6430AE60 /* CycleDrawTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAF58B159ABDC5FD71A21620B6CF0C7E /* NSCalendar+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAF5FC5691992601CAE3D1CC8B83C84 /* NSCalendar+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD1E774F6CBA03B03F853422308DBAD6 /* CycleVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F4DBAC1B64F4090290477028BC983C /* CycleVerticalButton.m */; };
-		BE39CBC304EBE803AA783EF01CCBFCF9 /* NSDate+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EB582B84986624F969A94C5048C109 /* NSDate+Cycle.m */; };
-		C0E8E7C79F48DCCDB0368D950BDCA6A3 /* NSString+CycleMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 2685A90C07B2ED2CC52726F5BC1ED3D1 /* NSString+CycleMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7C354327810736A3558AD3CF87A0535 /* UIView+CycleSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA63B4B344A169A9BB332F8ABE712D /* UIView+CycleSearchBar.m */; };
-		CB0D1D4F8E5D5B5CEB9550CE44BC7457 /* CycleCategoryHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = B75B408424B564B324B2B558AC678A56 /* CycleCategoryHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBA57F1313044C52B2CBEE32BF89E86C /* UIView+CycleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B31074221D649D4F570C01B0815284C /* UIView+CycleFrame.m */; };
-		CD6306B104E97FC18405B1B90F85D2CF /* CycleDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = BBBDBF27E5B71FF49BAAF1D9FC573B87 /* CycleDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D1C2416D104DB416464C1D37971CBC5C /* NSString+CycleGetDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 489BAD43BC5597A32D05D524AAF28B39 /* NSString+CycleGetDevice.m */; };
-		D2B4FF328E76572F2EB3889343F38216 /* CycleDrawTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E0E11AE3CE897FDF5E686DFAA7764D /* CycleDrawTextField.m */; };
-		D7847F2BA34B7373013B448C14D93A8E /* CycleNotificationTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = A4B68ABDC5EB072C65520398B7D57382 /* CycleNotificationTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7F956D1CD7715CA48DC76C9D85078A7 /* NSString+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F6CC420135EABFEEC3CD4E5AF73AA3 /* NSString+Cycle.m */; };
-		D908F685DA58159B5F35CA1646D428D9 /* UIImage+CycleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFD67BB4176CD31F55F375CFE04848D /* UIImage+CycleImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DECC1E4E2584F72588D43F2DFD72D3E9 /* UIBarButtonItem+CycleItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FA9D713E7609A8A05EF5794DD82C21 /* UIBarButtonItem+CycleItem.m */; };
-		E29A52F2AA5418694B849B870D364D72 /* CycleCustomRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = F1436B8B85B593E109F3EEB4D73C743C /* CycleCustomRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E42916CEB2E01003F98AB79EA77A8C0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		76C06C1C3CF634239362DEAB05EB2D4E /* NSDictionary+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9497319EB2E162DB1D32EEA430EEBEE1 /* NSDictionary+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CBCE471B9649D185EAB9AE619D7B0F7 /* UIView+CycleSearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E85414ED350AE2CC12972DD4F51B523 /* UIView+CycleSearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FCE9ECF0496AB8734DC4312AB9CF0B1 /* UIButton+Value.h in Headers */ = {isa = PBXBuildFile; fileRef = 096E08B50303F4501CF8B53BA55BCC9B /* UIButton+Value.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8017DF3308F8F8A50B556061AFFE3B1D /* NSString+CycleGetDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = F7539980BD7B559E858E354D7E30F3D8 /* NSString+CycleGetDevice.m */; };
+		85952593C437BBE508AA85B9BD83195E /* CycleCustomRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 12258EB2FEB10D58E7200394AFD96A12 /* CycleCustomRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85BDC40521B8B81245920BCBF7341067 /* CycleDrawTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D33D8A29034015FD8D10D9137DEA7889 /* CycleDrawTextField.m */; };
+		864F6434D83E722D51231999AAAC8503 /* UIView+CycleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AD2CD1B07554E5E81285AB91155336 /* UIView+CycleFrame.m */; };
+		8837F20D80932DB641499A6D1AF8EA86 /* CycleNotificationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 843EB985C7CD169044B700DBA11CF8FA /* CycleNotificationTextField.m */; };
+		89A801923B67B3E13DA662FD4B56F53F /* CycleCustomRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEFAFBE669F7E79A2911658A90DB72A /* CycleCustomRefreshView.m */; };
+		8FDA1B7F16809E41DAD64CAB7A216F0E /* NSDictionary+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 359412336F0589AA7A6D93D8003BCBB7 /* NSDictionary+Cycle.m */; };
+		90D8511014367510414FBA680807A4D0 /* UIView+CycleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDDAD1FFD24BD83D8EA3A378515FC0 /* UIView+CycleLayer.m */; };
+		90EAEB1A957B061B13760AE15468DA22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		92792513113AB853AA0BB4A47CDF91EF /* CycleNotificationTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBD0F31C8AE820628B5D72C9D42BE62 /* CycleNotificationTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92FE1AFA2611B45A10CF8B0B50F3DA82 /* UIImageView+CycleUIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0638EC2180C928C13D0F1CEE225531B7 /* UIImageView+CycleUIImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95ECED55FF36CD03DA44AEFB459C34FC /* CycleCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF58EB646595BEBBDBFD060C3E6405B /* CycleCustomLabel.m */; };
+		9B6E0E2AC0E831FB288576EA0AA91AFE /* UIScrollView+CycleRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 831977C2016C20C10713FB8289582D32 /* UIScrollView+CycleRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F37CAF39928B3AB6E53274096534798 /* NSString+Cycle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAF5A1A83DED83ED50A43590FFD128B /* NSString+Cycle.m */; };
+		A5F406E17DE49B6FD60142596636092B /* UIView+CycleLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F35D4F0DE7A064C002F2CD9F75EDB4B /* UIView+CycleLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A70195EF809156BD673FE90FF4085609 /* UIScrollView+CycleRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD308177557D90E21AE81CC018A6B58 /* UIScrollView+CycleRefresh.m */; };
+		A7BB3507A52C61097E75E6F0FBA0F6A1 /* NSString+CycleMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5CF0F1E43211858511FD2E3E758810 /* NSString+CycleMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7EE4177F4354C3F840A00E6A7A8167F /* UIColor+CycleHexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 9845F619046248DF6113F94DDB0AD64B /* UIColor+CycleHexColors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C0540BBE0167EE1D0CD567E7F1B55D /* UILabel+CycleCreat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB656A3D6963F511E2A61CC04D765C5 /* UILabel+CycleCreat.m */; };
+		AA15B4F65CB0D027E97C473B15E1AF8A /* UIView+CycleFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6AD55400409C20C54598C8686CA1C6 /* UIView+CycleFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB622B3DC103CEAF86A262179EBD4B31 /* cycleCategoryTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BBF587E1B37E1C2E441E26119C9B6DC /* cycleCategoryTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A091ABF6468B9763106411AD7A26A9 /* UIBarButtonItem+CycleItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CA4778373177807C7AAB5E1F47AD2FE /* UIBarButtonItem+CycleItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4800DAF78D4B9B04E10A93F9210C694 /* CycleDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13FE0910F574DB7C942F1793C94B0D1E /* CycleDrawTextView.m */; };
+		B7DCD81D6755F9877AB80EC657161094 /* UITextField+CycleCreat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BCCE5075EB87E03D4B1872FF3ECEFDC /* UITextField+CycleCreat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9695CF7BA40B1FA7B2D213917360056 /* CycleCategoryHelp.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B182721E607999D2481245C83E19CA1 /* CycleCategoryHelp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C11E9A5174121DD017CBDFE218AD3E03 /* UITableView+CycleCreat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F04A2B3719497522A0F1BBD1BB66D41 /* UITableView+CycleCreat.m */; };
+		C3F52DDFE5EF5343EBE466AAB158CF79 /* CycleTextViewHolderLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E054EDE2A8DC2B0DEBAC0B37CF112DAF /* CycleTextViewHolderLabel.m */; };
+		C5E26DB1DD9C1564CBBD00FE29A8051A /* NSCalendar+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D604DF714E22588E32C3A6BA6CD4108 /* NSCalendar+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8792A2891A8EBE648AB771B4774601 /* CyclePlaceHolderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6136BD316A91D5742455DA1FE4C737ED /* CyclePlaceHolderTextField.m */; };
+		D2D50F43C60CF2DD42F10A6420F7675F /* CycleTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 968FB5A78A936C01F3EF24492A37AE19 /* CycleTopWindow.m */; };
+		DDAC01543A4025D06ABDAC1A9E55E4C0 /* UITextView+CycleCreat.m in Sources */ = {isa = PBXBuildFile; fileRef = FD784F6FFAAB3C89EF5AEA6D636E489B /* UITextView+CycleCreat.m */; };
+		E0F69A1C42B75156AA798BDFAB0FAB3A /* UITextView+CycleCreat.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E95B513BBE9677C7358D58064436311 /* UITextView+CycleCreat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3D9BC600E22CC7030E855119D9A6755 /* CycleTextViewHolderLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = FF0FAB4F4C75FD34B81C7A172155231C /* CycleTextViewHolderLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4EDF080BEFF59D48A17015947D64D79 /* Pods-cycleCategoryTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E562C23E7A6332BEA144941FB7754D6 /* Pods-cycleCategoryTool_Example-dummy.m */; };
-		E9E8B6FB74B64E2644020C3DA33F8785 /* UIWindow+CycleCurrentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BBC6B8767037FDEF6B27F82553DD8E /* UIWindow+CycleCurrentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEAE62C34D4E40565B5F4E17871F6041 /* CycleTextViewHolderLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1AC8626C42F0542AFFE2A6AB5BD217 /* CycleTextViewHolderLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1CED83CC2644CA9A0DA9172696CED7E /* CycleNotificationTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = EEE6C212D5C837B7647D85EC4DE3378E /* CycleNotificationTextField.m */; };
-		F230E5E5CA8B405481AE6C7196AD1361 /* CycleSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2982A7816D2AB37360862F04374D185B /* CycleSquareButton.m */; };
-		F69FDAEE09B1187E29B81F3DC73354CE /* CycleCustomLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D78660E14475AA4870CC3D3EF635D1 /* CycleCustomLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA53969EBD866C2FB2F8EAC02F8DAAE4 /* NSString+CycleGetDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = E8089EAD876BC996EBAB04109176D4F1 /* NSString+CycleGetDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E82830E01DEC2FFF3071B6CAB2F0AF61 /* CycleSquareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ACA339C4276074427C04CD94F472461 /* CycleSquareButton.m */; };
+		E87B3DD3004C5E1EC67639608D9FF86E /* UITableView+CycleCreat.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4BD5C3F8C2C417DF3891B5B9BFCFE8 /* UITableView+CycleCreat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F04D2348B6A249AD1E066110AA3EC166 /* CycleSquareButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EEEABB8495E8648AFA00B8A7904C42AC /* CycleSquareButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1D3EF4904CEC81402875264A1F921D3 /* UICollectionView+CycleCreat.h in Headers */ = {isa = PBXBuildFile; fileRef = 983F8D48E3C77EB5637828699DBA5988 /* UICollectionView+CycleCreat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6778C27A37E2C4F068D265916F5CEA5 /* CyclePlaceHolderTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 335368E3B1ABD00F39AB729E6197D4BD /* CyclePlaceHolderTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86D01A2098FA04CD67DA778FC7C9495 /* NSDate+Cycle.h in Headers */ = {isa = PBXBuildFile; fileRef = B47FECC14325BC3506BE308CEE9FFA5F /* NSDate+Cycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8D618229834FFF254E19064F1784394 /* UIImageView+CycleUIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C96D4DAE2DC57A3DBB54ECB363470C /* UIImageView+CycleUIImageView.m */; };
+		FE4F08998A8E579B04AD5A9773DBB876 /* NSString+CyclefileSize.h in Headers */ = {isa = PBXBuildFile; fileRef = F815F4FFDAD1175253DBA6DD6FAE5F46 /* NSString+CyclefileSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,99 +89,115 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B8F215739E7EE12DEFAC13D0748C366;
+			remoteGlobalIDString = 9E3D505C8F12CBA4B21A270FBE287440;
 			remoteInfo = cycleCategoryTool;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044C9F8A018AE2FEE464FCB109D02A44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		04BC1BAB0B63434936BBEE625CBAEF34 /* UITextField+CycleTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CycleTextField.m"; sourceTree = "<group>"; };
 		05D4A17015BB418619E1BA60B3C3BA29 /* Pods-cycleCategoryTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cycleCategoryTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		060503B29CEF5F18E6E9855132413AA6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0A0C3B77B9A903D9A7978C9C432DD0AA /* UIView+CycleFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CycleFrame.h"; sourceTree = "<group>"; };
-		0C1F08C91BB873B3172F8DD72A3D513A /* NSCalendar+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Cycle.m"; sourceTree = "<group>"; };
-		11581FB65F1DD696E3A401E493A2593D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = cycleCategoryTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		12E0E11AE3CE897FDF5E686DFAA7764D /* CycleDrawTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleDrawTextField.m; sourceTree = "<group>"; };
-		14D567DABF07E489CFF80980494E6744 /* CycleTopWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleTopWindow.m; sourceTree = "<group>"; };
-		1C419D61D2AF9EEF6F73CAAD8F1FB211 /* CycleDrawTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleDrawTextField.h; sourceTree = "<group>"; };
+		0638EC2180C928C13D0F1CEE225531B7 /* UIImageView+CycleUIImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CycleUIImageView.h"; sourceTree = "<group>"; };
+		096E08B50303F4501CF8B53BA55BCC9B /* UIButton+Value.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Value.h"; sourceTree = "<group>"; };
+		0F04A2B3719497522A0F1BBD1BB66D41 /* UITableView+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CycleCreat.m"; sourceTree = "<group>"; };
+		0F35D4F0DE7A064C002F2CD9F75EDB4B /* UIView+CycleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CycleLayer.h"; sourceTree = "<group>"; };
+		12258EB2FEB10D58E7200394AFD96A12 /* CycleCustomRefreshView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleCustomRefreshView.h; sourceTree = "<group>"; };
+		13FE0910F574DB7C942F1793C94B0D1E /* CycleDrawTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleDrawTextView.m; sourceTree = "<group>"; };
+		16721657E25D4A2B155A1CEAFFBF7FCC /* UIBarButtonItem+CycleItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CycleItem.m"; sourceTree = "<group>"; };
+		1AC0F41841DEC1C6A4906293D99C0E66 /* CycleCustomLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleCustomLabel.h; sourceTree = "<group>"; };
+		1ACA339C4276074427C04CD94F472461 /* CycleSquareButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleSquareButton.m; sourceTree = "<group>"; };
+		1AF58EB646595BEBBDBFD060C3E6405B /* CycleCustomLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleCustomLabel.m; sourceTree = "<group>"; };
+		1B182721E607999D2481245C83E19CA1 /* CycleCategoryHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleCategoryHelp.h; sourceTree = "<group>"; };
 		1DD37721A02986E6B5EC40568B217819 /* Pods-cycleCategoryTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cycleCategoryTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1EB6F249A9660BD144EBF2BE63EF19DB /* UIScrollView+CycleRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CycleRefresh.m"; sourceTree = "<group>"; };
-		1FAF5FC5691992601CAE3D1CC8B83C84 /* NSCalendar+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Cycle.h"; sourceTree = "<group>"; };
-		1FBA63B4B344A169A9BB332F8ABE712D /* UIView+CycleSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CycleSearchBar.m"; sourceTree = "<group>"; };
-		25C8CC5C671ADD74E8C53B510F6846E5 /* UIButton+Creat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Creat.m"; sourceTree = "<group>"; };
-		2685A90C07B2ED2CC52726F5BC1ED3D1 /* NSString+CycleMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CycleMD5.h"; sourceTree = "<group>"; };
-		26B3319F4A660E79019032273B5154C2 /* cycleCategoryTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = cycleCategoryTool.modulemap; sourceTree = "<group>"; };
-		2982A7816D2AB37360862F04374D185B /* CycleSquareButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleSquareButton.m; sourceTree = "<group>"; };
+		1F0A700AB761FF557286274A40BBC57E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2600AD572BF97ABFED92E7CD112AFAC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D95C92134ADCEE47EDDBF46508E2552 /* UIImage+CycleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CycleImage.m"; sourceTree = "<group>"; };
+		2DEFAFBE669F7E79A2911658A90DB72A /* CycleCustomRefreshView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleCustomRefreshView.m; sourceTree = "<group>"; };
 		2E562C23E7A6332BEA144941FB7754D6 /* Pods-cycleCategoryTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cycleCategoryTool_Example-dummy.m"; sourceTree = "<group>"; };
-		3022ADBE80F0E9AF32DE792B315BF6B9 /* UIWindow+CycleCurrentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CycleCurrentViewController.m"; sourceTree = "<group>"; };
+		2FD308177557D90E21AE81CC018A6B58 /* UIScrollView+CycleRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+CycleRefresh.m"; sourceTree = "<group>"; };
+		329B1147978C4E62FC2645D8F177AA7E /* NSString+CyclefileSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CyclefileSize.m"; sourceTree = "<group>"; };
 		32FCAFFFB8727E93496E6C89A7A7B380 /* Pods-cycleCategoryTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cycleCategoryTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		377AE7F7B4545EFED704CE7D58199576 /* UIImageView+CycleUIImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CycleUIImageView.m"; sourceTree = "<group>"; };
-		38A6342E729E3626E45C59145BD85425 /* UIBarButtonItem+CycleItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CycleItem.h"; sourceTree = "<group>"; };
-		39BBC6B8767037FDEF6B27F82553DD8E /* UIWindow+CycleCurrentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CycleCurrentViewController.h"; sourceTree = "<group>"; };
-		3CA46EB3BFE6F346810A763D6895BA91 /* cycleCategoryTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cycleCategoryTool.xcconfig; sourceTree = "<group>"; };
-		47015AA5BDD1829590CD22E8ED1B352E /* CycleCustomRefreshView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleCustomRefreshView.m; sourceTree = "<group>"; };
-		47AAC86B9D1380692584C86B056E18D6 /* NSDictionary+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Cycle.m"; sourceTree = "<group>"; };
-		489BAD43BC5597A32D05D524AAF28B39 /* NSString+CycleGetDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CycleGetDevice.m"; sourceTree = "<group>"; };
-		48CD942F8675E46E34519AD828FA1BAD /* NSDictionary+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Cycle.h"; sourceTree = "<group>"; };
+		335368E3B1ABD00F39AB729E6197D4BD /* CyclePlaceHolderTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CyclePlaceHolderTextField.h; sourceTree = "<group>"; };
+		359412336F0589AA7A6D93D8003BCBB7 /* NSDictionary+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Cycle.m"; sourceTree = "<group>"; };
+		3B678C7DE4E005B51A00D1782A735A42 /* CycleTopWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleTopWindow.h; sourceTree = "<group>"; };
+		3C868708070CC7A389E9693DF55A7AFD /* UITextField+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CycleCreat.m"; sourceTree = "<group>"; };
+		3D604DF714E22588E32C3A6BA6CD4108 /* NSCalendar+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Cycle.h"; sourceTree = "<group>"; };
+		3DEB3AD537C2AABAB91DECEC739D1278 /* CycleDrawTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleDrawTextView.h; sourceTree = "<group>"; };
+		3FAF5A1A83DED83ED50A43590FFD128B /* NSString+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Cycle.m"; sourceTree = "<group>"; };
 		4A808D99B17257C9B6A1BB7F4883243C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C67A32A22A23862C6783F5868F54488 /* UIColor+CycleHexColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CycleHexColors.m"; sourceTree = "<group>"; };
 		4CBEEC76E4CE27F917D8734214A755F0 /* Pods_cycleCategoryTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cycleCategoryTool_Example.framework; path = "Pods-cycleCategoryTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDB3BCABBF2F612A1FEFF0D5EE478BE /* Pods-cycleCategoryTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cycleCategoryTool_Example-resources.sh"; sourceTree = "<group>"; };
-		53446DA120F3E0A5E7048C9BEFD529AE /* cycleCategoryTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cycleCategoryTool-dummy.m"; sourceTree = "<group>"; };
-		54032B6E3F3D561143FF10DAA7A42593 /* CycleTopWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleTopWindow.h; sourceTree = "<group>"; };
-		561B0280E148906F37C7ADCCAE68F5B3 /* cycleCategoryTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cycleCategoryTool-prefix.pch"; sourceTree = "<group>"; };
-		5B31074221D649D4F570C01B0815284C /* UIView+CycleFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CycleFrame.m"; sourceTree = "<group>"; };
-		5C3BCE9BE7B4193BDF074A02DCFB6DE5 /* UIScrollView+CycleRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CycleRefresh.h"; sourceTree = "<group>"; };
-		5E38636D20A7C0471282A496607B392F /* UIColor+CycleHexColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CycleHexColors.h"; sourceTree = "<group>"; };
+		5BCCE5075EB87E03D4B1872FF3ECEFDC /* UITextField+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+CycleCreat.h"; sourceTree = "<group>"; };
+		5E85414ED350AE2CC12972DD4F51B523 /* UIView+CycleSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CycleSearchBar.h"; sourceTree = "<group>"; };
+		5E95B513BBE9677C7358D58064436311 /* UITextView+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+CycleCreat.h"; sourceTree = "<group>"; };
+		6136BD316A91D5742455DA1FE4C737ED /* CyclePlaceHolderTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CyclePlaceHolderTextField.m; sourceTree = "<group>"; };
+		62DE981BB9031E833C2AD6F01D192B9B /* CycleDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleDefines.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		67178209EAF0BC09F5B11373E791C414 /* Pods-cycleCategoryTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cycleCategoryTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6F0A30C00FB5A228F5EE1C9830BFDC4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BE24D0A1F6A5E0EED9AC914F7C76DA1 /* UIImageView+CycleUIImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CycleUIImageView.h"; sourceTree = "<group>"; };
-		8278F29231997D562096C09C0794C8E1 /* CyclePlaceHolderTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CyclePlaceHolderTextField.h; sourceTree = "<group>"; };
-		8462B1FE9457A0A4857AE13E6430AE60 /* CycleDrawTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleDrawTextView.h; sourceTree = "<group>"; };
-		89877A17DD551412570F40C001AE2111 /* NSDate+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+Cycle.h"; sourceTree = "<group>"; };
+		6CD1C401B441441026ED66C8CD55B7C6 /* NSDate+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Cycle.m"; sourceTree = "<group>"; };
+		70578BD0A130C3E55885E3B23508DDE9 /* NSCalendar+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Cycle.m"; sourceTree = "<group>"; };
+		78FD5F572435EB347EBD4F4CB5B042C0 /* cycleCategoryTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cycleCategoryTool-dummy.m"; sourceTree = "<group>"; };
+		7A3A2756097C7FEDFBC2DEFCA36CAE32 /* cycleCategoryTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = cycleCategoryTool.xcconfig; sourceTree = "<group>"; };
+		7B427C685B2696EBBA21773538264DF8 /* UICollectionView+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+CycleCreat.m"; sourceTree = "<group>"; };
+		7B5CF0F1E43211858511FD2E3E758810 /* NSString+CycleMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CycleMD5.h"; sourceTree = "<group>"; };
+		7CA4778373177807C7AAB5E1F47AD2FE /* UIBarButtonItem+CycleItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CycleItem.h"; sourceTree = "<group>"; };
+		7DB656A3D6963F511E2A61CC04D765C5 /* UILabel+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CycleCreat.m"; sourceTree = "<group>"; };
+		7E713D006B1F39293B651F48F8B28CD0 /* UILabel+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+CycleCreat.h"; sourceTree = "<group>"; };
+		831977C2016C20C10713FB8289582D32 /* UIScrollView+CycleRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+CycleRefresh.h"; sourceTree = "<group>"; };
+		843EB985C7CD169044B700DBA11CF8FA /* CycleNotificationTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleNotificationTextField.m; sourceTree = "<group>"; };
+		84B0632FCA7D45738B8F95B7801E2A6E /* cycleCategoryTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = cycleCategoryTool.modulemap; sourceTree = "<group>"; };
+		86EDDAD1FFD24BD83D8EA3A378515FC0 /* UIView+CycleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CycleLayer.m"; sourceTree = "<group>"; };
+		8A005D2EB9F4DA22BC2EC5C5A6B2D627 /* CycleVerticalButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleVerticalButton.h; sourceTree = "<group>"; };
+		8BD889FF19802EA2B1C60B9DF4440D18 /* UIButton+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+CycleCreat.h"; sourceTree = "<group>"; };
 		922578758968F5DC700CF648836DDB1D /* Pods-cycleCategoryTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cycleCategoryTool_Example.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A1AC8626C42F0542AFFE2A6AB5BD217 /* CycleTextViewHolderLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleTextViewHolderLabel.h; sourceTree = "<group>"; };
-		A01FEFD62ECE2D4BC3461FF1EA07C0C0 /* UIButton+Value.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Value.h"; sourceTree = "<group>"; };
-		A4B68ABDC5EB072C65520398B7D57382 /* CycleNotificationTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleNotificationTextField.h; sourceTree = "<group>"; };
-		A59E8F3AC26E0344E64862D561AF2950 /* UIButton+Creat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Creat.h"; sourceTree = "<group>"; };
-		A9FA9D713E7609A8A05EF5794DD82C21 /* UIBarButtonItem+CycleItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CycleItem.m"; sourceTree = "<group>"; };
-		AA44BB3CE44F06A3AE6AA26BEEF19B1C /* CycleDrawTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleDrawTextView.m; sourceTree = "<group>"; };
+		9497319EB2E162DB1D32EEA430EEBEE1 /* NSDictionary+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Cycle.h"; sourceTree = "<group>"; };
+		94AD2CD1B07554E5E81285AB91155336 /* UIView+CycleFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CycleFrame.m"; sourceTree = "<group>"; };
+		968FB5A78A936C01F3EF24492A37AE19 /* CycleTopWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleTopWindow.m; sourceTree = "<group>"; };
+		983F8D48E3C77EB5637828699DBA5988 /* UICollectionView+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+CycleCreat.h"; sourceTree = "<group>"; };
+		9845F619046248DF6113F94DDB0AD64B /* UIColor+CycleHexColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CycleHexColors.h"; sourceTree = "<group>"; };
+		9BBD0F31C8AE820628B5D72C9D42BE62 /* CycleNotificationTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleNotificationTextField.h; sourceTree = "<group>"; };
+		9BBF587E1B37E1C2E441E26119C9B6DC /* cycleCategoryTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cycleCategoryTool-umbrella.h"; sourceTree = "<group>"; };
+		A8C96D4DAE2DC57A3DBB54ECB363470C /* UIImageView+CycleUIImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CycleUIImageView.m"; sourceTree = "<group>"; };
 		AAEB94A27012244FD59A858D3A102D36 /* Pods-cycleCategoryTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cycleCategoryTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B0F6CC420135EABFEEC3CD4E5AF73AA3 /* NSString+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+Cycle.m"; sourceTree = "<group>"; };
-		B62F27D54915ECD643A8AAB5D888D7F2 /* NSString+CycleMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CycleMD5.m"; sourceTree = "<group>"; };
-		B75B408424B564B324B2B558AC678A56 /* CycleCategoryHelp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleCategoryHelp.h; sourceTree = "<group>"; };
-		B8F4FF43F3B0B7E232BA9E38175E149B /* UIView+CycleLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CycleLayer.h"; sourceTree = "<group>"; };
-		BA10D57BDCA028907EDB83F903F133C9 /* CycleVerticalButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleVerticalButton.h; sourceTree = "<group>"; };
-		BBBDBF27E5B71FF49BAAF1D9FC573B87 /* CycleDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleDefines.h; sourceTree = "<group>"; };
-		BC21EDAD45EED530F78EC871BA969DAA /* UIButton+Value.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Value.m"; sourceTree = "<group>"; };
-		BCAFB627B6E4730C32F91339C700A1F2 /* CycleTextViewHolderLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleTextViewHolderLabel.m; sourceTree = "<group>"; };
+		AC26AABC5CF32684088CC90F2A5F3884 /* cycleCategoryTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = cycleCategoryTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC2DAD816B4FD49D0B917D3B3D59398A /* CycleVerticalButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleVerticalButton.m; sourceTree = "<group>"; };
+		AFBB25B23574207EDB5C1C493BA7673A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = cycleCategoryTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B1B0E96AFECD631EE4E61E7622238CED /* UIView+CycleSearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CycleSearchBar.m"; sourceTree = "<group>"; };
+		B3EB77DDFC53DFF381357FA643D805C1 /* NSString+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Cycle.h"; sourceTree = "<group>"; };
+		B47FECC14325BC3506BE308CEE9FFA5F /* NSDate+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+Cycle.h"; sourceTree = "<group>"; };
+		B610C1EA209C97628981D84D7470B3F4 /* UIWindow+CycleCurrentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CycleCurrentViewController.h"; sourceTree = "<group>"; };
+		B989816A541439676A2C882044E41F44 /* UIButton+Value.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Value.m"; sourceTree = "<group>"; };
+		BD6AD55400409C20C54598C8686CA1C6 /* UIView+CycleFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CycleFrame.h"; sourceTree = "<group>"; };
+		BE4BD5C3F8C2C417DF3891B5B9BFCFE8 /* UITableView+CycleCreat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+CycleCreat.h"; sourceTree = "<group>"; };
 		BFAD823DCCB575020384A56D79FB14BC /* cycleCategoryTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = cycleCategoryTool.framework; path = cycleCategoryTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFD1380CD42D4C7A0801AA7C1C712D41 /* UIView+CycleSearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CycleSearchBar.h"; sourceTree = "<group>"; };
-		C66B3482E603720503BCDA201263745D /* UIView+CycleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CycleLayer.m"; sourceTree = "<group>"; };
-		C949D29F24632C24E55A5BA16DAC5A37 /* UIImage+CycleImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CycleImage.m"; sourceTree = "<group>"; };
-		CAEE6A3E94D2D82467E238F4491B1673 /* NSString+CyclefileSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CyclefileSize.h"; sourceTree = "<group>"; };
-		CD00F96860D57509228C320D5ED752A0 /* UIColor+CycleHexColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CycleHexColors.m"; sourceTree = "<group>"; };
-		CD5C44D84C16305F5447BDC0E18DF5A5 /* CycleSquareButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleSquareButton.h; sourceTree = "<group>"; };
-		CD688414B6A372FDD16A1FCC020CDC8D /* cycleCategoryTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = cycleCategoryTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CFFD67BB4176CD31F55F375CFE04848D /* UIImage+CycleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CycleImage.h"; sourceTree = "<group>"; };
-		D4096F7B983C3E19C8B263AA6F28F5C2 /* CycleCustomLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleCustomLabel.m; sourceTree = "<group>"; };
-		DB556B964CD2375D486F1441D3149AB5 /* cycleCategoryTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cycleCategoryTool-umbrella.h"; sourceTree = "<group>"; };
+		C2586A650FC2DA5CE88634E35484D5E1 /* cycleCategoryTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cycleCategoryTool-prefix.pch"; sourceTree = "<group>"; };
+		C4F1119F304F695A8AC88026CB997751 /* UIButton+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CycleCreat.m"; sourceTree = "<group>"; };
+		CBCA432FA19DE39AC38FD13F85625E24 /* NSString+CycleGetDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CycleGetDevice.h"; sourceTree = "<group>"; };
+		D096A0984A0E0886F26DD67D10F0D9A8 /* CycleDrawTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleDrawTextField.h; sourceTree = "<group>"; };
+		D33D8A29034015FD8D10D9137DEA7889 /* CycleDrawTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleDrawTextField.m; sourceTree = "<group>"; };
 		DBD9C9914E6CE7CAB7314A31E1E94F60 /* Pods-cycleCategoryTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cycleCategoryTool_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E8089EAD876BC996EBAB04109176D4F1 /* NSString+CycleGetDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CycleGetDevice.h"; sourceTree = "<group>"; };
-		E8EA16815DD2C0F9352CA2C516C3203D /* NSString+CyclefileSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CyclefileSize.m"; sourceTree = "<group>"; };
-		EB0564B62573C220C1D563779D9B54EB /* NSString+Cycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Cycle.h"; sourceTree = "<group>"; };
-		EEE6C212D5C837B7647D85EC4DE3378E /* CycleNotificationTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleNotificationTextField.m; sourceTree = "<group>"; };
-		F0EB582B84986624F969A94C5048C109 /* NSDate+Cycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Cycle.m"; sourceTree = "<group>"; };
-		F1436B8B85B593E109F3EEB4D73C743C /* CycleCustomRefreshView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleCustomRefreshView.h; sourceTree = "<group>"; };
-		F3D78660E14475AA4870CC3D3EF635D1 /* CycleCustomLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleCustomLabel.h; sourceTree = "<group>"; };
-		F5F4DBAC1B64F4090290477028BC983C /* CycleVerticalButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleVerticalButton.m; sourceTree = "<group>"; };
-		F9403BA25BC99BD5BEA5EFE51C443624 /* UITextField+CycleTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+CycleTextField.h"; sourceTree = "<group>"; };
-		FDE71363DDE8A03517822D7A25634344 /* CyclePlaceHolderTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CyclePlaceHolderTextField.m; sourceTree = "<group>"; };
+		E054EDE2A8DC2B0DEBAC0B37CF112DAF /* CycleTextViewHolderLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CycleTextViewHolderLabel.m; sourceTree = "<group>"; };
+		EE07E4B0B45F80DEEC391D440B5A75B5 /* UIWindow+CycleCurrentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CycleCurrentViewController.m"; sourceTree = "<group>"; };
+		EEEABB8495E8648AFA00B8A7904C42AC /* CycleSquareButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleSquareButton.h; sourceTree = "<group>"; };
+		F44BB876F0DEE5DEDABBF6D4E197489E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F7539980BD7B559E858E354D7E30F3D8 /* NSString+CycleGetDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CycleGetDevice.m"; sourceTree = "<group>"; };
+		F815F4FFDAD1175253DBA6DD6FAE5F46 /* NSString+CyclefileSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CyclefileSize.h"; sourceTree = "<group>"; };
+		F91A558382BDD1FB93979972CD696B77 /* UIImage+CycleImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CycleImage.h"; sourceTree = "<group>"; };
+		F999393B46AA08D6A0BF422DFB435A10 /* NSString+CycleMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CycleMD5.m"; sourceTree = "<group>"; };
+		FD784F6FFAAB3C89EF5AEA6D636E489B /* UITextView+CycleCreat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+CycleCreat.m"; sourceTree = "<group>"; };
+		FF0FAB4F4C75FD34B81C7A172155231C /* CycleTextViewHolderLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CycleTextViewHolderLabel.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		044BABCCAECAAE7F61F060A56926F622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EAEB1A957B061B13760AE15468DA22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8834595592186A563C77176B31F509FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,103 +206,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F0DB2285F061B23630A8A634D5E213 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E42916CEB2E01003F98AB79EA77A8C0E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B4C92AC43E22690633A54705EFA1CCA /* cycleCategoryTool */ = {
+		3BDC206A70108DDB9CBC26B934D7C7F1 /* cycleCategoryTool */ = {
 			isa = PBXGroup;
 			children = (
-				B75B408424B564B324B2B558AC678A56 /* CycleCategoryHelp.h */,
-				F3D78660E14475AA4870CC3D3EF635D1 /* CycleCustomLabel.h */,
-				D4096F7B983C3E19C8B263AA6F28F5C2 /* CycleCustomLabel.m */,
-				F1436B8B85B593E109F3EEB4D73C743C /* CycleCustomRefreshView.h */,
-				47015AA5BDD1829590CD22E8ED1B352E /* CycleCustomRefreshView.m */,
-				BBBDBF27E5B71FF49BAAF1D9FC573B87 /* CycleDefines.h */,
-				1C419D61D2AF9EEF6F73CAAD8F1FB211 /* CycleDrawTextField.h */,
-				12E0E11AE3CE897FDF5E686DFAA7764D /* CycleDrawTextField.m */,
-				8462B1FE9457A0A4857AE13E6430AE60 /* CycleDrawTextView.h */,
-				AA44BB3CE44F06A3AE6AA26BEEF19B1C /* CycleDrawTextView.m */,
-				A4B68ABDC5EB072C65520398B7D57382 /* CycleNotificationTextField.h */,
-				EEE6C212D5C837B7647D85EC4DE3378E /* CycleNotificationTextField.m */,
-				8278F29231997D562096C09C0794C8E1 /* CyclePlaceHolderTextField.h */,
-				FDE71363DDE8A03517822D7A25634344 /* CyclePlaceHolderTextField.m */,
-				CD5C44D84C16305F5447BDC0E18DF5A5 /* CycleSquareButton.h */,
-				2982A7816D2AB37360862F04374D185B /* CycleSquareButton.m */,
-				9A1AC8626C42F0542AFFE2A6AB5BD217 /* CycleTextViewHolderLabel.h */,
-				BCAFB627B6E4730C32F91339C700A1F2 /* CycleTextViewHolderLabel.m */,
-				54032B6E3F3D561143FF10DAA7A42593 /* CycleTopWindow.h */,
-				14D567DABF07E489CFF80980494E6744 /* CycleTopWindow.m */,
-				BA10D57BDCA028907EDB83F903F133C9 /* CycleVerticalButton.h */,
-				F5F4DBAC1B64F4090290477028BC983C /* CycleVerticalButton.m */,
-				1FAF5FC5691992601CAE3D1CC8B83C84 /* NSCalendar+Cycle.h */,
-				0C1F08C91BB873B3172F8DD72A3D513A /* NSCalendar+Cycle.m */,
-				89877A17DD551412570F40C001AE2111 /* NSDate+Cycle.h */,
-				F0EB582B84986624F969A94C5048C109 /* NSDate+Cycle.m */,
-				48CD942F8675E46E34519AD828FA1BAD /* NSDictionary+Cycle.h */,
-				47AAC86B9D1380692584C86B056E18D6 /* NSDictionary+Cycle.m */,
-				EB0564B62573C220C1D563779D9B54EB /* NSString+Cycle.h */,
-				B0F6CC420135EABFEEC3CD4E5AF73AA3 /* NSString+Cycle.m */,
-				CAEE6A3E94D2D82467E238F4491B1673 /* NSString+CyclefileSize.h */,
-				E8EA16815DD2C0F9352CA2C516C3203D /* NSString+CyclefileSize.m */,
-				E8089EAD876BC996EBAB04109176D4F1 /* NSString+CycleGetDevice.h */,
-				489BAD43BC5597A32D05D524AAF28B39 /* NSString+CycleGetDevice.m */,
-				2685A90C07B2ED2CC52726F5BC1ED3D1 /* NSString+CycleMD5.h */,
-				B62F27D54915ECD643A8AAB5D888D7F2 /* NSString+CycleMD5.m */,
-				38A6342E729E3626E45C59145BD85425 /* UIBarButtonItem+CycleItem.h */,
-				A9FA9D713E7609A8A05EF5794DD82C21 /* UIBarButtonItem+CycleItem.m */,
-				A59E8F3AC26E0344E64862D561AF2950 /* UIButton+Creat.h */,
-				25C8CC5C671ADD74E8C53B510F6846E5 /* UIButton+Creat.m */,
-				A01FEFD62ECE2D4BC3461FF1EA07C0C0 /* UIButton+Value.h */,
-				BC21EDAD45EED530F78EC871BA969DAA /* UIButton+Value.m */,
-				5E38636D20A7C0471282A496607B392F /* UIColor+CycleHexColors.h */,
-				CD00F96860D57509228C320D5ED752A0 /* UIColor+CycleHexColors.m */,
-				CFFD67BB4176CD31F55F375CFE04848D /* UIImage+CycleImage.h */,
-				C949D29F24632C24E55A5BA16DAC5A37 /* UIImage+CycleImage.m */,
-				7BE24D0A1F6A5E0EED9AC914F7C76DA1 /* UIImageView+CycleUIImageView.h */,
-				377AE7F7B4545EFED704CE7D58199576 /* UIImageView+CycleUIImageView.m */,
-				5C3BCE9BE7B4193BDF074A02DCFB6DE5 /* UIScrollView+CycleRefresh.h */,
-				1EB6F249A9660BD144EBF2BE63EF19DB /* UIScrollView+CycleRefresh.m */,
-				F9403BA25BC99BD5BEA5EFE51C443624 /* UITextField+CycleTextField.h */,
-				04BC1BAB0B63434936BBEE625CBAEF34 /* UITextField+CycleTextField.m */,
-				0A0C3B77B9A903D9A7978C9C432DD0AA /* UIView+CycleFrame.h */,
-				5B31074221D649D4F570C01B0815284C /* UIView+CycleFrame.m */,
-				B8F4FF43F3B0B7E232BA9E38175E149B /* UIView+CycleLayer.h */,
-				C66B3482E603720503BCDA201263745D /* UIView+CycleLayer.m */,
-				BFD1380CD42D4C7A0801AA7C1C712D41 /* UIView+CycleSearchBar.h */,
-				1FBA63B4B344A169A9BB332F8ABE712D /* UIView+CycleSearchBar.m */,
-				39BBC6B8767037FDEF6B27F82553DD8E /* UIWindow+CycleCurrentViewController.h */,
-				3022ADBE80F0E9AF32DE792B315BF6B9 /* UIWindow+CycleCurrentViewController.m */,
+				AFBB25B23574207EDB5C1C493BA7673A /* ReplaceMe.m */,
+				B58B3910B30EAA5E7228F4CF7DE8ABD9 /* cycleCategoryTool */,
+				42A7DD3940BE268042E5CA196B6C0BB8 /* Pod */,
+				E53671F39E7DBED885E0667977586934 /* Support Files */,
 			);
 			name = cycleCategoryTool;
-			path = cycleCategoryTool/Classes/cycleCategoryTool;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		3D531DD4C122EA1F951040B819F7CFE9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				45CFB00F541FD381F3E4A30BC9553589 /* cycleCategoryTool */,
+				3BDC206A70108DDB9CBC26B934D7C7F1 /* cycleCategoryTool */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		45CFB00F541FD381F3E4A30BC9553589 /* cycleCategoryTool */ = {
+		42A7DD3940BE268042E5CA196B6C0BB8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				11581FB65F1DD696E3A401E493A2593D /* ReplaceMe.m */,
-				0B4C92AC43E22690633A54705EFA1CCA /* cycleCategoryTool */,
-				CCC3A42CDBF3AE9AAF27B057C8DFFFD6 /* Pod */,
-				91E5B41C3A35744F882389B347794573 /* Support Files */,
+				AC26AABC5CF32684088CC90F2A5F3884 /* cycleCategoryTool.podspec */,
+				F44BB876F0DEE5DEDABBF6D4E197489E /* LICENSE */,
+				1F0A700AB761FF557286274A40BBC57E /* README.md */,
 			);
-			name = cycleCategoryTool;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -292,20 +250,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		91E5B41C3A35744F882389B347794573 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				26B3319F4A660E79019032273B5154C2 /* cycleCategoryTool.modulemap */,
-				3CA46EB3BFE6F346810A763D6895BA91 /* cycleCategoryTool.xcconfig */,
-				53446DA120F3E0A5E7048C9BEFD529AE /* cycleCategoryTool-dummy.m */,
-				561B0280E148906F37C7ADCCAE68F5B3 /* cycleCategoryTool-prefix.pch */,
-				DB556B964CD2375D486F1441D3149AB5 /* cycleCategoryTool-umbrella.h */,
-				6F0A30C00FB5A228F5EE1C9830BFDC4D /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/cycleCategoryTool";
-			sourceTree = "<group>";
-		};
 		990D66F62653F1DAF84103ED690EA0BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,6 +257,82 @@
 				4CBEEC76E4CE27F917D8734214A755F0 /* Pods_cycleCategoryTool_Example.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B58B3910B30EAA5E7228F4CF7DE8ABD9 /* cycleCategoryTool */ = {
+			isa = PBXGroup;
+			children = (
+				1B182721E607999D2481245C83E19CA1 /* CycleCategoryHelp.h */,
+				1AC0F41841DEC1C6A4906293D99C0E66 /* CycleCustomLabel.h */,
+				1AF58EB646595BEBBDBFD060C3E6405B /* CycleCustomLabel.m */,
+				12258EB2FEB10D58E7200394AFD96A12 /* CycleCustomRefreshView.h */,
+				2DEFAFBE669F7E79A2911658A90DB72A /* CycleCustomRefreshView.m */,
+				62DE981BB9031E833C2AD6F01D192B9B /* CycleDefines.h */,
+				D096A0984A0E0886F26DD67D10F0D9A8 /* CycleDrawTextField.h */,
+				D33D8A29034015FD8D10D9137DEA7889 /* CycleDrawTextField.m */,
+				3DEB3AD537C2AABAB91DECEC739D1278 /* CycleDrawTextView.h */,
+				13FE0910F574DB7C942F1793C94B0D1E /* CycleDrawTextView.m */,
+				9BBD0F31C8AE820628B5D72C9D42BE62 /* CycleNotificationTextField.h */,
+				843EB985C7CD169044B700DBA11CF8FA /* CycleNotificationTextField.m */,
+				335368E3B1ABD00F39AB729E6197D4BD /* CyclePlaceHolderTextField.h */,
+				6136BD316A91D5742455DA1FE4C737ED /* CyclePlaceHolderTextField.m */,
+				EEEABB8495E8648AFA00B8A7904C42AC /* CycleSquareButton.h */,
+				1ACA339C4276074427C04CD94F472461 /* CycleSquareButton.m */,
+				FF0FAB4F4C75FD34B81C7A172155231C /* CycleTextViewHolderLabel.h */,
+				E054EDE2A8DC2B0DEBAC0B37CF112DAF /* CycleTextViewHolderLabel.m */,
+				3B678C7DE4E005B51A00D1782A735A42 /* CycleTopWindow.h */,
+				968FB5A78A936C01F3EF24492A37AE19 /* CycleTopWindow.m */,
+				8A005D2EB9F4DA22BC2EC5C5A6B2D627 /* CycleVerticalButton.h */,
+				AC2DAD816B4FD49D0B917D3B3D59398A /* CycleVerticalButton.m */,
+				3D604DF714E22588E32C3A6BA6CD4108 /* NSCalendar+Cycle.h */,
+				70578BD0A130C3E55885E3B23508DDE9 /* NSCalendar+Cycle.m */,
+				B47FECC14325BC3506BE308CEE9FFA5F /* NSDate+Cycle.h */,
+				6CD1C401B441441026ED66C8CD55B7C6 /* NSDate+Cycle.m */,
+				9497319EB2E162DB1D32EEA430EEBEE1 /* NSDictionary+Cycle.h */,
+				359412336F0589AA7A6D93D8003BCBB7 /* NSDictionary+Cycle.m */,
+				B3EB77DDFC53DFF381357FA643D805C1 /* NSString+Cycle.h */,
+				3FAF5A1A83DED83ED50A43590FFD128B /* NSString+Cycle.m */,
+				F815F4FFDAD1175253DBA6DD6FAE5F46 /* NSString+CyclefileSize.h */,
+				329B1147978C4E62FC2645D8F177AA7E /* NSString+CyclefileSize.m */,
+				CBCA432FA19DE39AC38FD13F85625E24 /* NSString+CycleGetDevice.h */,
+				F7539980BD7B559E858E354D7E30F3D8 /* NSString+CycleGetDevice.m */,
+				7B5CF0F1E43211858511FD2E3E758810 /* NSString+CycleMD5.h */,
+				F999393B46AA08D6A0BF422DFB435A10 /* NSString+CycleMD5.m */,
+				7CA4778373177807C7AAB5E1F47AD2FE /* UIBarButtonItem+CycleItem.h */,
+				16721657E25D4A2B155A1CEAFFBF7FCC /* UIBarButtonItem+CycleItem.m */,
+				8BD889FF19802EA2B1C60B9DF4440D18 /* UIButton+CycleCreat.h */,
+				C4F1119F304F695A8AC88026CB997751 /* UIButton+CycleCreat.m */,
+				096E08B50303F4501CF8B53BA55BCC9B /* UIButton+Value.h */,
+				B989816A541439676A2C882044E41F44 /* UIButton+Value.m */,
+				983F8D48E3C77EB5637828699DBA5988 /* UICollectionView+CycleCreat.h */,
+				7B427C685B2696EBBA21773538264DF8 /* UICollectionView+CycleCreat.m */,
+				9845F619046248DF6113F94DDB0AD64B /* UIColor+CycleHexColors.h */,
+				4C67A32A22A23862C6783F5868F54488 /* UIColor+CycleHexColors.m */,
+				F91A558382BDD1FB93979972CD696B77 /* UIImage+CycleImage.h */,
+				2D95C92134ADCEE47EDDBF46508E2552 /* UIImage+CycleImage.m */,
+				0638EC2180C928C13D0F1CEE225531B7 /* UIImageView+CycleUIImageView.h */,
+				A8C96D4DAE2DC57A3DBB54ECB363470C /* UIImageView+CycleUIImageView.m */,
+				7E713D006B1F39293B651F48F8B28CD0 /* UILabel+CycleCreat.h */,
+				7DB656A3D6963F511E2A61CC04D765C5 /* UILabel+CycleCreat.m */,
+				831977C2016C20C10713FB8289582D32 /* UIScrollView+CycleRefresh.h */,
+				2FD308177557D90E21AE81CC018A6B58 /* UIScrollView+CycleRefresh.m */,
+				BE4BD5C3F8C2C417DF3891B5B9BFCFE8 /* UITableView+CycleCreat.h */,
+				0F04A2B3719497522A0F1BBD1BB66D41 /* UITableView+CycleCreat.m */,
+				5BCCE5075EB87E03D4B1872FF3ECEFDC /* UITextField+CycleCreat.h */,
+				3C868708070CC7A389E9693DF55A7AFD /* UITextField+CycleCreat.m */,
+				5E95B513BBE9677C7358D58064436311 /* UITextView+CycleCreat.h */,
+				FD784F6FFAAB3C89EF5AEA6D636E489B /* UITextView+CycleCreat.m */,
+				BD6AD55400409C20C54598C8686CA1C6 /* UIView+CycleFrame.h */,
+				94AD2CD1B07554E5E81285AB91155336 /* UIView+CycleFrame.m */,
+				0F35D4F0DE7A064C002F2CD9F75EDB4B /* UIView+CycleLayer.h */,
+				86EDDAD1FFD24BD83D8EA3A378515FC0 /* UIView+CycleLayer.m */,
+				5E85414ED350AE2CC12972DD4F51B523 /* UIView+CycleSearchBar.h */,
+				B1B0E96AFECD631EE4E61E7622238CED /* UIView+CycleSearchBar.m */,
+				B610C1EA209C97628981D84D7470B3F4 /* UIWindow+CycleCurrentViewController.h */,
+				EE07E4B0B45F80DEEC391D440B5A75B5 /* UIWindow+CycleCurrentViewController.m */,
+			);
+			name = cycleCategoryTool;
+			path = cycleCategoryTool/Classes/cycleCategoryTool;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -323,22 +343,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CCC3A42CDBF3AE9AAF27B057C8DFFFD6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				CD688414B6A372FDD16A1FCC020CDC8D /* cycleCategoryTool.podspec */,
-				044C9F8A018AE2FEE464FCB109D02A44 /* LICENSE */,
-				060503B29CEF5F18E6E9855132413AA6 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E53671F39E7DBED885E0667977586934 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B0632FCA7D45738B8F95B7801E2A6E /* cycleCategoryTool.modulemap */,
+				7A3A2756097C7FEDFBC2DEFCA36CAE32 /* cycleCategoryTool.xcconfig */,
+				78FD5F572435EB347EBD4F4CB5B042C0 /* cycleCategoryTool-dummy.m */,
+				C2586A650FC2DA5CE88634E35484D5E1 /* cycleCategoryTool-prefix.pch */,
+				9BBF587E1B37E1C2E441E26119C9B6DC /* cycleCategoryTool-umbrella.h */,
+				2600AD572BF97ABFED92E7CD112AFAC0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/cycleCategoryTool";
 			sourceTree = "<group>";
 		};
 		F099D988ADFB67075FE7D489D1571600 /* Targets Support Files */ = {
@@ -370,6 +394,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1EF74F809E32E772F2685911DCE7A66B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9695CF7BA40B1FA7B2D213917360056 /* CycleCategoryHelp.h in Headers */,
+				AB622B3DC103CEAF86A262179EBD4B31 /* cycleCategoryTool-umbrella.h in Headers */,
+				6F92F25683BC53178D6D00777F1E9F10 /* CycleCustomLabel.h in Headers */,
+				85952593C437BBE508AA85B9BD83195E /* CycleCustomRefreshView.h in Headers */,
+				04F2977E6404EC52BF85BFEE81FB5610 /* CycleDefines.h in Headers */,
+				330790E9CEBD822E3CBB727E176AE3C3 /* CycleDrawTextField.h in Headers */,
+				5EC73B4D4C890A090C2372529CB970E0 /* CycleDrawTextView.h in Headers */,
+				92792513113AB853AA0BB4A47CDF91EF /* CycleNotificationTextField.h in Headers */,
+				F6778C27A37E2C4F068D265916F5CEA5 /* CyclePlaceHolderTextField.h in Headers */,
+				F04D2348B6A249AD1E066110AA3EC166 /* CycleSquareButton.h in Headers */,
+				E3D9BC600E22CC7030E855119D9A6755 /* CycleTextViewHolderLabel.h in Headers */,
+				1567DFEF7179F9C7EEB3F929D427E059 /* CycleTopWindow.h in Headers */,
+				6A2199D4C5578A14B6DCA43F0528B9CA /* CycleVerticalButton.h in Headers */,
+				C5E26DB1DD9C1564CBBD00FE29A8051A /* NSCalendar+Cycle.h in Headers */,
+				F86D01A2098FA04CD67DA778FC7C9495 /* NSDate+Cycle.h in Headers */,
+				76C06C1C3CF634239362DEAB05EB2D4E /* NSDictionary+Cycle.h in Headers */,
+				3F25D1C5A024164ACD49CE43CC05839D /* NSString+Cycle.h in Headers */,
+				FE4F08998A8E579B04AD5A9773DBB876 /* NSString+CyclefileSize.h in Headers */,
+				3A2F81933EAD1B82EBF54831028DFE8E /* NSString+CycleGetDevice.h in Headers */,
+				A7BB3507A52C61097E75E6F0FBA0F6A1 /* NSString+CycleMD5.h in Headers */,
+				B1A091ABF6468B9763106411AD7A26A9 /* UIBarButtonItem+CycleItem.h in Headers */,
+				06FCB4ED698EB79DD36E615ABFA16E03 /* UIButton+CycleCreat.h in Headers */,
+				7FCE9ECF0496AB8734DC4312AB9CF0B1 /* UIButton+Value.h in Headers */,
+				F1D3EF4904CEC81402875264A1F921D3 /* UICollectionView+CycleCreat.h in Headers */,
+				A7EE4177F4354C3F840A00E6A7A8167F /* UIColor+CycleHexColors.h in Headers */,
+				58C1AF8DEB55C0F88ABBE6166199D010 /* UIImage+CycleImage.h in Headers */,
+				92FE1AFA2611B45A10CF8B0B50F3DA82 /* UIImageView+CycleUIImageView.h in Headers */,
+				1DE9292256ACDA291DB117A5922DE137 /* UILabel+CycleCreat.h in Headers */,
+				9B6E0E2AC0E831FB288576EA0AA91AFE /* UIScrollView+CycleRefresh.h in Headers */,
+				E87B3DD3004C5E1EC67639608D9FF86E /* UITableView+CycleCreat.h in Headers */,
+				B7DCD81D6755F9877AB80EC657161094 /* UITextField+CycleCreat.h in Headers */,
+				E0F69A1C42B75156AA798BDFAB0FAB3A /* UITextView+CycleCreat.h in Headers */,
+				AA15B4F65CB0D027E97C473B15E1AF8A /* UIView+CycleFrame.h in Headers */,
+				A5F406E17DE49B6FD60142596636092B /* UIView+CycleLayer.h in Headers */,
+				7CBCE471B9649D185EAB9AE619D7B0F7 /* UIView+CycleSearchBar.h in Headers */,
+				1A8126F05CFC1B3AC1D82EAA664ECC40 /* UIWindow+CycleCurrentViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		823192124B5DB638F2EA5670985AB4C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,55 +445,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99CD208ADFFBB3CDFC96277DD0FEE429 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CB0D1D4F8E5D5B5CEB9550CE44BC7457 /* CycleCategoryHelp.h in Headers */,
-				89574E554EA8125BD5DAE6C29F8862DF /* cycleCategoryTool-umbrella.h in Headers */,
-				F69FDAEE09B1187E29B81F3DC73354CE /* CycleCustomLabel.h in Headers */,
-				E29A52F2AA5418694B849B870D364D72 /* CycleCustomRefreshView.h in Headers */,
-				CD6306B104E97FC18405B1B90F85D2CF /* CycleDefines.h in Headers */,
-				48C804E2057C715264DE64AD218FDD3A /* CycleDrawTextField.h in Headers */,
-				A55A464A4D8114D5E1B83194C6073C3E /* CycleDrawTextView.h in Headers */,
-				D7847F2BA34B7373013B448C14D93A8E /* CycleNotificationTextField.h in Headers */,
-				1DF1EF23AF9194F3498A03672462C4D4 /* CyclePlaceHolderTextField.h in Headers */,
-				642C9B07D898EA2E9124A6F20FE5AABA /* CycleSquareButton.h in Headers */,
-				EEAE62C34D4E40565B5F4E17871F6041 /* CycleTextViewHolderLabel.h in Headers */,
-				3151E1C5D8B23AB6A09514C32AE7CEF7 /* CycleTopWindow.h in Headers */,
-				9BA7ACDDDCE42576B9EEE495528950E9 /* CycleVerticalButton.h in Headers */,
-				AAF58B159ABDC5FD71A21620B6CF0C7E /* NSCalendar+Cycle.h in Headers */,
-				313C6905A8464013DC05BF500F6E301D /* NSDate+Cycle.h in Headers */,
-				552C65BDBC373F760E165A9D460867B6 /* NSDictionary+Cycle.h in Headers */,
-				2209C4F01AEB4A41AE2B4B9A51A51340 /* NSString+Cycle.h in Headers */,
-				90943803EC533A994C0E97E79536265D /* NSString+CyclefileSize.h in Headers */,
-				FA53969EBD866C2FB2F8EAC02F8DAAE4 /* NSString+CycleGetDevice.h in Headers */,
-				C0E8E7C79F48DCCDB0368D950BDCA6A3 /* NSString+CycleMD5.h in Headers */,
-				4D4DBFA8537EC9DBFD932ABB339E19A2 /* UIBarButtonItem+CycleItem.h in Headers */,
-				21E3676A6D46DFE4953C360EB17ABB53 /* UIButton+Creat.h in Headers */,
-				6F68AD1B232DE5179D5C9D660B7785A2 /* UIButton+Value.h in Headers */,
-				996A210D5118928CAE3F37C98C8188DA /* UIColor+CycleHexColors.h in Headers */,
-				D908F685DA58159B5F35CA1646D428D9 /* UIImage+CycleImage.h in Headers */,
-				08D342145BE87E78AF12DE52924B682C /* UIImageView+CycleUIImageView.h in Headers */,
-				9C2729564A1B694D489D3ADCA47B60F8 /* UIScrollView+CycleRefresh.h in Headers */,
-				5E83982B35A1FEB2804EC572589CD948 /* UITextField+CycleTextField.h in Headers */,
-				161C8F1CB644E615A1493E59A07A5F64 /* UIView+CycleFrame.h in Headers */,
-				10C4A7B3EA00A7D6835307EB31954999 /* UIView+CycleLayer.h in Headers */,
-				0205EA49EB61B7DFB1527DF5527F0C7E /* UIView+CycleSearchBar.h in Headers */,
-				E9E8B6FB74B64E2644020C3DA33F8785 /* UIWindow+CycleCurrentViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B8F215739E7EE12DEFAC13D0748C366 /* cycleCategoryTool */ = {
+		9E3D505C8F12CBA4B21A270FBE287440 /* cycleCategoryTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FB3EDC7516C85C19651D3D68063D944 /* Build configuration list for PBXNativeTarget "cycleCategoryTool" */;
+			buildConfigurationList = A13641B01119A93E94847F00C0F04A9F /* Build configuration list for PBXNativeTarget "cycleCategoryTool" */;
 			buildPhases = (
-				DD40834A36795F63F4CF42AEC5A571F3 /* Sources */,
-				88F0DB2285F061B23630A8A634D5E213 /* Frameworks */,
-				99CD208ADFFBB3CDFC96277DD0FEE429 /* Headers */,
+				45701F09148A33EF52A28D03F80A87E4 /* Sources */,
+				044BABCCAECAAE7F61F060A56926F622 /* Frameworks */,
+				1EF74F809E32E772F2685911DCE7A66B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -476,56 +504,60 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B8F215739E7EE12DEFAC13D0748C366 /* cycleCategoryTool */,
+				9E3D505C8F12CBA4B21A270FBE287440 /* cycleCategoryTool */,
 				CC127B9500912B073D71DCB7899FB70A /* Pods-cycleCategoryTool_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		45701F09148A33EF52A28D03F80A87E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3617E204430CA765D086CC288ACB908A /* cycleCategoryTool-dummy.m in Sources */,
+				95ECED55FF36CD03DA44AEFB459C34FC /* CycleCustomLabel.m in Sources */,
+				89A801923B67B3E13DA662FD4B56F53F /* CycleCustomRefreshView.m in Sources */,
+				85BDC40521B8B81245920BCBF7341067 /* CycleDrawTextField.m in Sources */,
+				B4800DAF78D4B9B04E10A93F9210C694 /* CycleDrawTextView.m in Sources */,
+				8837F20D80932DB641499A6D1AF8EA86 /* CycleNotificationTextField.m in Sources */,
+				CC8792A2891A8EBE648AB771B4774601 /* CyclePlaceHolderTextField.m in Sources */,
+				E82830E01DEC2FFF3071B6CAB2F0AF61 /* CycleSquareButton.m in Sources */,
+				C3F52DDFE5EF5343EBE466AAB158CF79 /* CycleTextViewHolderLabel.m in Sources */,
+				D2D50F43C60CF2DD42F10A6420F7675F /* CycleTopWindow.m in Sources */,
+				2767904EDC189407F5CE89DB4C80A3B1 /* CycleVerticalButton.m in Sources */,
+				4744E034BA7651A81805A0CE20B9D7E4 /* NSCalendar+Cycle.m in Sources */,
+				47C0D5A8EE76BD24E7FE9178507C25DD /* NSDate+Cycle.m in Sources */,
+				8FDA1B7F16809E41DAD64CAB7A216F0E /* NSDictionary+Cycle.m in Sources */,
+				9F37CAF39928B3AB6E53274096534798 /* NSString+Cycle.m in Sources */,
+				08F6FA6AAF4060C663AC1DECEA20CAC9 /* NSString+CyclefileSize.m in Sources */,
+				8017DF3308F8F8A50B556061AFFE3B1D /* NSString+CycleGetDevice.m in Sources */,
+				4DF1FD2E758EFD079BFA2FD30BC8B578 /* NSString+CycleMD5.m in Sources */,
+				31B9949CA0AAFBE2863C177AF03EBB8F /* ReplaceMe.m in Sources */,
+				66115F655047E558D13DA4FB65D00CBD /* UIBarButtonItem+CycleItem.m in Sources */,
+				359154E99A732573225CF80DCC3CB75E /* UIButton+CycleCreat.m in Sources */,
+				187B01EE6D00CCB12D1767CBAF0C7825 /* UIButton+Value.m in Sources */,
+				515EAEC26CA4FF0385D125750407A971 /* UICollectionView+CycleCreat.m in Sources */,
+				0AB6CD5E9367C552A25BC47BC5BD942E /* UIColor+CycleHexColors.m in Sources */,
+				14E6822D3935A447768E5B39124167E3 /* UIImage+CycleImage.m in Sources */,
+				F8D618229834FFF254E19064F1784394 /* UIImageView+CycleUIImageView.m in Sources */,
+				A8C0540BBE0167EE1D0CD567E7F1B55D /* UILabel+CycleCreat.m in Sources */,
+				A70195EF809156BD673FE90FF4085609 /* UIScrollView+CycleRefresh.m in Sources */,
+				C11E9A5174121DD017CBDFE218AD3E03 /* UITableView+CycleCreat.m in Sources */,
+				55F92C41220ADD6921EB6D1F815B9628 /* UITextField+CycleCreat.m in Sources */,
+				DDAC01543A4025D06ABDAC1A9E55E4C0 /* UITextView+CycleCreat.m in Sources */,
+				864F6434D83E722D51231999AAAC8503 /* UIView+CycleFrame.m in Sources */,
+				90D8511014367510414FBA680807A4D0 /* UIView+CycleLayer.m in Sources */,
+				73E34D370A66ACF9C3B9BDE2EAA66D38 /* UIView+CycleSearchBar.m in Sources */,
+				635B54413B2D3A482A92AC7EFB269B17 /* UIWindow+CycleCurrentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC3BA272D7A4E67C0CDB43C92838052D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E4EDF080BEFF59D48A17015947D64D79 /* Pods-cycleCategoryTool_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD40834A36795F63F4CF42AEC5A571F3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				896011C65C63002C114526F5CE62C8F6 /* cycleCategoryTool-dummy.m in Sources */,
-				00070E47727DC06FFA221F77D6404A86 /* CycleCustomLabel.m in Sources */,
-				0831DCC67F9EDD8D58369FCB4A79BF6D /* CycleCustomRefreshView.m in Sources */,
-				D2B4FF328E76572F2EB3889343F38216 /* CycleDrawTextField.m in Sources */,
-				79B3EE83F947BFD45A8BB6DD5050841F /* CycleDrawTextView.m in Sources */,
-				F1CED83CC2644CA9A0DA9172696CED7E /* CycleNotificationTextField.m in Sources */,
-				45D9F1F09F4E2E2B0491B63870968D1C /* CyclePlaceHolderTextField.m in Sources */,
-				F230E5E5CA8B405481AE6C7196AD1361 /* CycleSquareButton.m in Sources */,
-				6542A39063B2074757FF24ADEA7A4E09 /* CycleTextViewHolderLabel.m in Sources */,
-				6217F052BF33865CD0063480E2529971 /* CycleTopWindow.m in Sources */,
-				AD1E774F6CBA03B03F853422308DBAD6 /* CycleVerticalButton.m in Sources */,
-				565578A2F46C8C6966E0C7019AD32BD2 /* NSCalendar+Cycle.m in Sources */,
-				BE39CBC304EBE803AA783EF01CCBFCF9 /* NSDate+Cycle.m in Sources */,
-				4117C8276507F863D1DB72F9829C5D9A /* NSDictionary+Cycle.m in Sources */,
-				D7F956D1CD7715CA48DC76C9D85078A7 /* NSString+Cycle.m in Sources */,
-				68D42EBCE3DF3810364DCEDCB7B81BB8 /* NSString+CyclefileSize.m in Sources */,
-				D1C2416D104DB416464C1D37971CBC5C /* NSString+CycleGetDevice.m in Sources */,
-				341AC0345F26822470316E81F60AE4F0 /* NSString+CycleMD5.m in Sources */,
-				53AB396D62F829D3A6F1C97A8DDA92F9 /* ReplaceMe.m in Sources */,
-				DECC1E4E2584F72588D43F2DFD72D3E9 /* UIBarButtonItem+CycleItem.m in Sources */,
-				2662838E607B06D986C84265B08E94DF /* UIButton+Creat.m in Sources */,
-				6F1CAA5B61757CBD5A796E91CF265EAB /* UIButton+Value.m in Sources */,
-				72E03244B2A2C38C8BE59C960B5DE3D2 /* UIColor+CycleHexColors.m in Sources */,
-				61CD959565050B6C294A047B5D9E3DA1 /* UIImage+CycleImage.m in Sources */,
-				0B2015F969F36F1652C6F6460C2BF581 /* UIImageView+CycleUIImageView.m in Sources */,
-				8D0EDB509F326B6D9B3A079A7AD461C2 /* UIScrollView+CycleRefresh.m in Sources */,
-				418E8F7F78F6280B4DE41C3731B5692A /* UITextField+CycleTextField.m in Sources */,
-				CBA57F1313044C52B2CBEE32BF89E86C /* UIView+CycleFrame.m in Sources */,
-				2F10D7DF6F8AC31EDB0B3378E56B3159 /* UIView+CycleLayer.m in Sources */,
-				C7C354327810736A3558AD3CF87A0535 /* UIView+CycleSearchBar.m in Sources */,
-				9A0A71B4F180F3E705943053E3F2746F /* UIWindow+CycleCurrentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,7 +567,7 @@
 		47644E6C4CC153C3166E1A252F27F84E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = cycleCategoryTool;
-			target = 3B8F215739E7EE12DEFAC13D0748C366 /* cycleCategoryTool */;
+			target = 9E3D505C8F12CBA4B21A270FBE287440 /* cycleCategoryTool */;
 			targetProxy = 8E03FB9AB2B6639928F6892295CCA0D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -671,9 +703,9 @@
 			};
 			name = Release;
 		};
-		A96980F19D9C324F11A28907143D70EB /* Debug */ = {
+		AA9AAB422AE50E70E59B07346332D57F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CA46EB3BFE6F346810A763D6895BA91 /* cycleCategoryTool.xcconfig */;
+			baseConfigurationReference = 7A3A2756097C7FEDFBC2DEFCA36CAE32 /* cycleCategoryTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -701,9 +733,9 @@
 			};
 			name = Debug;
 		};
-		E2FF6E4506534E4FDF35A68280867DFD /* Release */ = {
+		E6E40181E91598C38073D1E5B1788FE9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CA46EB3BFE6F346810A763D6895BA91 /* cycleCategoryTool.xcconfig */;
+			baseConfigurationReference = 7A3A2756097C7FEDFBC2DEFCA36CAE32 /* cycleCategoryTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -802,20 +834,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FB3EDC7516C85C19651D3D68063D944 /* Build configuration list for PBXNativeTarget "cycleCategoryTool" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A96980F19D9C324F11A28907143D70EB /* Debug */,
-				E2FF6E4506534E4FDF35A68280867DFD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		857181675D57160B24EE1568A3D84BB9 /* Build configuration list for PBXNativeTarget "Pods-cycleCategoryTool_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1914C03B0D3129624C34E17C0AFA2312 /* Debug */,
 				7F59828414E02CDEFA9DF8EFB828CCAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13641B01119A93E94847F00C0F04A9F /* Build configuration list for PBXNativeTarget "cycleCategoryTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9AAB422AE50E70E59B07346332D57F /* Debug */,
+				E6E40181E91598C38073D1E5B1788FE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

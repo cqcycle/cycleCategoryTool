@@ -1,5 +1,5 @@
 PODS:
-  - cycleCategoryTool (1.0.0)
+  - cycleCategoryTool (1.0.1)
 
 DEPENDENCIES:
   - cycleCategoryTool (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  cycleCategoryTool: 6e9373ab63092cc9cf7f209c8b28738a2a558d1c
+  cycleCategoryTool: 39262423a7a4c99eac5c3c31d423ca305bd69b4d
 
 PODFILE CHECKSUM: 3a74b96a4bf842b614854a4aa44a141b5ea6be3d
 

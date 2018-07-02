@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039761FF20E9FA5900300E15 /* CycleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 039761FE20E9FA5900300E15 /* CycleTableView.m */; };
+		0397620220E9FDA000300E15 /* CycleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397620120E9FDA000300E15 /* CycleLabel.m */; };
+		0397620520E9FE5A00300E15 /* CycleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397620420E9FE5A00300E15 /* CycleButton.m */; };
+		0397620C20EA037F00300E15 /* CycleTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397620B20EA037F00300E15 /* CycleTextField.m */; };
+		0397621720EA08F900300E15 /* CycleCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397621620EA08F900300E15 /* CycleCollectionView.m */; };
+		0397621A20EA0AB700300E15 /* CycleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0397621920EA0AB700300E15 /* CycleCollectionViewCell.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -36,6 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039761FD20E9FA5900300E15 /* CycleTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleTableView.h; sourceTree = "<group>"; };
+		039761FE20E9FA5900300E15 /* CycleTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleTableView.m; sourceTree = "<group>"; };
+		0397620020E9FDA000300E15 /* CycleLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleLabel.h; sourceTree = "<group>"; };
+		0397620120E9FDA000300E15 /* CycleLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleLabel.m; sourceTree = "<group>"; };
+		0397620320E9FE5A00300E15 /* CycleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleButton.h; sourceTree = "<group>"; };
+		0397620420E9FE5A00300E15 /* CycleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleButton.m; sourceTree = "<group>"; };
+		0397620A20EA037F00300E15 /* CycleTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleTextField.h; sourceTree = "<group>"; };
+		0397620B20EA037F00300E15 /* CycleTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleTextField.m; sourceTree = "<group>"; };
+		0397621520EA08F900300E15 /* CycleCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleCollectionView.h; sourceTree = "<group>"; };
+		0397621620EA08F900300E15 /* CycleCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleCollectionView.m; sourceTree = "<group>"; };
+		0397621820EA0AB700300E15 /* CycleCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleCollectionViewCell.h; sourceTree = "<group>"; };
+		0397621920EA0AB700300E15 /* CycleCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleCollectionViewCell.m; sourceTree = "<group>"; };
 		2B5DB153B9F91FA56D0697A0 /* Pods_cycleCategoryTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cycleCategoryTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53EDF5C950FECABC61C23CB0 /* cycleCategoryTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = cycleCategoryTool.podspec; path = ../cycleCategoryTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* cycleCategoryTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cycleCategoryTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +163,18 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				039761FD20E9FA5900300E15 /* CycleTableView.h */,
+				039761FE20E9FA5900300E15 /* CycleTableView.m */,
+				0397620020E9FDA000300E15 /* CycleLabel.h */,
+				0397620120E9FDA000300E15 /* CycleLabel.m */,
+				0397620320E9FE5A00300E15 /* CycleButton.h */,
+				0397620420E9FE5A00300E15 /* CycleButton.m */,
+				0397620A20EA037F00300E15 /* CycleTextField.h */,
+				0397620B20EA037F00300E15 /* CycleTextField.m */,
+				0397621520EA08F900300E15 /* CycleCollectionView.h */,
+				0397621620EA08F900300E15 /* CycleCollectionView.m */,
+				0397621820EA0AB700300E15 /* CycleCollectionViewCell.h */,
+				0397621920EA0AB700300E15 /* CycleCollectionViewCell.m */,
 			);
 			name = "Example for cycleCategoryTool";
 			path = cycleCategoryTool;
@@ -330,9 +360,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0397620220E9FDA000300E15 /* CycleLabel.m in Sources */,
 				6003F59E195388D20070C39A /* CycleAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CycleViewController.m in Sources */,
+				0397621A20EA0AB700300E15 /* CycleCollectionViewCell.m in Sources */,
+				039761FF20E9FA5900300E15 /* CycleTableView.m in Sources */,
+				0397620520E9FE5A00300E15 /* CycleButton.m in Sources */,
+				0397620C20EA037F00300E15 /* CycleTextField.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0397621720EA08F900300E15 /* CycleCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

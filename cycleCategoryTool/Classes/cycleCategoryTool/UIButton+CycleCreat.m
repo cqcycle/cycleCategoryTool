@@ -1,12 +1,12 @@
 //
-//  UIButton+Creat.m
+//  UIButton+CycleCreat.m
 //  sdas
 //
 //  Created by ddy on 2018/6/29.
 //  Copyright © 2018年 ddy. All rights reserved.
 //
 
-#import "UIButton+Creat.h"
+#import "UIButton+CycleCreat.h"
 #import <objc/runtime.h>
 static NSString *keyOfMethod;
 static NSString *keyOfObjectBlock;
@@ -17,7 +17,7 @@ static NSString *keyOfObjectBlock;
  id value                      : 被关联者，这里是一个block
  objc_AssociationPolicy policy : 关联时采用的协议，有assign，retain，copy等协议，一般使用OBJC_ASSOCIATION_RETAIN_NONATOMIC
  */
-@implementation UIButton (Creat)
+@implementation UIButton (CycleCreat)
 /**
  * 1.创建按钮(只含有文字)
  */

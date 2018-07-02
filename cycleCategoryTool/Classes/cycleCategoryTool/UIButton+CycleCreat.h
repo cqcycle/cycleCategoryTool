@@ -1,14 +1,16 @@
 //
-//  UIButton+Creat.h
+//  UIButton+CycleCreat.h
 //  sdas
 //
 //  Created by ddy on 2018/6/29.
 //  Copyright © 2018年 ddy. All rights reserved.
-//
+//  快速创建按钮
 
 #import <UIKit/UIKit.h>
+
 typedef void(^ButtonActionBlock)(__kindof UIButton *button);
-@interface UIButton (Creat)
+
+@interface UIButton (CycleCreat)
 
 /** 按钮回调的block */
 @property (nonatomic, copy) ButtonActionBlock actionBlock;
