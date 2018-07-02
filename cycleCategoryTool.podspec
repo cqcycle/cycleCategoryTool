@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cycleCategoryTool'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of cycleCategoryTool.'
   s.homepage         = 'https://github.com/cqcycle/cycleCategoryTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,3 +29,13 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
+
+
+
+
+
+
+
+
+

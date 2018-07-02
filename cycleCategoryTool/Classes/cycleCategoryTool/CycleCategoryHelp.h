@@ -9,7 +9,7 @@
 #ifndef CycleCategoryHelp_h
 #define CycleCategoryHelp_h
 
-
+///////////////
 ///防止系统函数影响
 #ifdef __OBJC__
 
